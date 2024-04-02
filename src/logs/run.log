@@ -1,0 +1,551 @@
+2024-02-11 18:32:49,668 :: root         : INFO     Configured the logging successfully
+2024-02-11 18:45:26,703 :: root         : INFO     Configured the logging successfully
+2024-02-11 18:47:52,670 :: root         : INFO     Trainig data:(5167, 2)
+2024-02-11 18:47:52,681 :: root         : INFO     Class distribution:
+entertainment    2710
+sports           1856
+tech              601
+Name: 1, dtype: int64
+2024-02-11 18:50:00,773 :: root         : INFO     BERT has been loaded successfully
+2024-02-11 18:50:02,921 :: root         : INFO     Maximum sentence length:75
+2024-02-11 18:50:02,959 :: root         : INFO     Padded array shape:(5167, 75)
+2024-02-11 18:50:02,988 :: root         : INFO     Attention mask shape:(5167, 75)
+2024-02-11 18:50:02,989 :: root         : INFO     Going to get BERT embeddings for 5167 records
+2024-02-11 18:50:02,990 :: root         : INFO     Running batch-wise. Original shape:(5167, 75)
+2024-02-11 19:03:30,719 :: root         : INFO     Time taken:807 seconds
+2024-02-11 19:19:41,961 :: root         : INFO     Time taken:971 seconds
+2024-02-11 19:19:42,021 :: root         : INFO     Accumulated emb size:torch.Size([1000, 75, 768])
+2024-02-11 19:30:50,819 :: root         : INFO     Time taken:668 seconds
+2024-02-11 19:30:50,892 :: root         : INFO     Accumulated emb size:torch.Size([1500, 75, 768])
+2024-02-11 19:42:01,045 :: root         : INFO     Time taken:670 seconds
+2024-02-11 19:42:01,160 :: root         : INFO     Accumulated emb size:torch.Size([2000, 75, 768])
+2024-02-11 19:53:08,839 :: root         : INFO     Time taken:667 seconds
+2024-02-11 19:53:08,944 :: root         : INFO     Accumulated emb size:torch.Size([2500, 75, 768])
+2024-02-11 20:04:10,829 :: root         : INFO     Time taken:661 seconds
+2024-02-11 20:04:10,969 :: root         : INFO     Accumulated emb size:torch.Size([3000, 75, 768])
+2024-02-11 20:15:10,884 :: root         : INFO     Time taken:659 seconds
+2024-02-11 20:15:11,027 :: root         : INFO     Accumulated emb size:torch.Size([3500, 75, 768])
+2024-02-11 20:26:07,114 :: root         : INFO     Time taken:656 seconds
+2024-02-11 20:26:07,295 :: root         : INFO     Accumulated emb size:torch.Size([4000, 75, 768])
+2024-02-11 20:37:02,765 :: root         : INFO     Time taken:655 seconds
+2024-02-11 20:37:02,964 :: root         : INFO     Accumulated emb size:torch.Size([4500, 75, 768])
+2024-02-11 20:47:56,794 :: root         : INFO     Time taken:653 seconds
+2024-02-11 20:47:57,022 :: root         : INFO     Accumulated emb size:torch.Size([5000, 75, 768])
+2024-02-11 20:51:41,699 :: root         : INFO     Time taken:224 seconds
+2024-02-11 20:51:42,043 :: root         : INFO     Accumulated emb size:torch.Size([5167, 75, 768])
+2024-02-11 20:51:42,061 :: root         : INFO     Bert features shape:(5167, 768)
+2024-02-11 20:51:43,154 :: root         : INFO     Training complete
+2024-02-11 20:51:43,174 :: root         : INFO     Confusion Matrix:
+[[259  14   8]
+ [ 29 153   2]
+ [ 14   8  30]]
+2024-02-11 20:51:43,207 :: root         : INFO     Report:
+               precision    recall  f1-score   support
+
+entertainment       0.86      0.92      0.89       281
+       sports       0.87      0.83      0.85       184
+         tech       0.75      0.58      0.65        52
+
+     accuracy                           0.85       517
+    macro avg       0.83      0.78      0.80       517
+ weighted avg       0.85      0.85      0.85       517
+
+2024-02-11 21:47:53,652 :: root         : INFO     Trainig data:(2106, 1)
+2024-02-11 21:50:21,795 :: root         : INFO     Trainig data:(2106, 2)
+2024-02-11 21:50:21,802 :: root         : INFO     Class distribution:
+1    1872
+0     234
+Name: 1, dtype: int64
+2024-02-11 21:50:29,304 :: root         : INFO     BERT has been loaded successfully
+2024-02-11 21:50:29,742 :: root         : INFO     Maximum sentence length:12
+2024-02-11 21:50:29,750 :: root         : INFO     Padded array shape:(2106, 12)
+2024-02-11 21:50:29,755 :: root         : INFO     Attention mask shape:(2106, 12)
+2024-02-11 21:50:29,760 :: root         : INFO     Going to get BERT embeddings for 2106 records
+2024-02-11 21:50:29,781 :: root         : INFO     Running batch-wise. Original shape:(2106, 12)
+2024-02-11 21:52:20,606 :: root         : INFO     Time taken:110 seconds
+2024-02-11 21:54:09,225 :: root         : INFO     Time taken:108 seconds
+2024-02-11 21:54:09,237 :: root         : INFO     Accumulated emb size:torch.Size([1000, 12, 768])
+2024-02-11 21:55:58,261 :: root         : INFO     Time taken:109 seconds
+2024-02-11 21:55:58,281 :: root         : INFO     Accumulated emb size:torch.Size([1500, 12, 768])
+2024-02-11 21:57:47,296 :: root         : INFO     Time taken:109 seconds
+2024-02-11 21:57:47,321 :: root         : INFO     Accumulated emb size:torch.Size([2000, 12, 768])
+2024-02-11 21:58:07,862 :: root         : INFO     Time taken:20 seconds
+2024-02-11 21:58:07,885 :: root         : INFO     Accumulated emb size:torch.Size([2106, 12, 768])
+2024-02-11 21:58:07,888 :: root         : INFO     Bert features shape:(2106, 768)
+2024-02-11 21:58:08,110 :: root         : INFO     Training complete
+2024-02-11 21:58:08,114 :: root         : INFO     Confusion Matrix:
+[[  1  21]
+ [  0 189]]
+2024-02-11 21:58:08,128 :: root         : INFO     Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.05      0.09        22
+           1       0.90      1.00      0.95       189
+
+    accuracy                           0.90       211
+   macro avg       0.95      0.52      0.52       211
+weighted avg       0.91      0.90      0.86       211
+
+2024-02-11 22:18:08,531 :: root         : INFO     Trainig data:(2106, 2)
+2024-02-11 22:18:08,547 :: root         : INFO     Class distribution:
+1    1872
+0     234
+Name: 1, dtype: int64
+2024-02-11 22:18:16,256 :: root         : INFO     BERT has been loaded successfully
+2024-02-11 22:18:16,691 :: root         : INFO     Maximum sentence length:12
+2024-02-11 22:18:16,699 :: root         : INFO     Padded array shape:(2106, 12)
+2024-02-11 22:18:16,706 :: root         : INFO     Attention mask shape:(2106, 12)
+2024-02-11 22:18:16,711 :: root         : INFO     Going to get BERT embeddings for 2106 records
+2024-02-11 22:18:16,713 :: root         : INFO     Running batch-wise. Original shape:(2106, 12)
+2024-02-11 22:20:09,078 :: root         : INFO     Time taken:112 seconds
+2024-02-11 22:21:58,701 :: root         : INFO     Time taken:109 seconds
+2024-02-11 22:21:58,717 :: root         : INFO     Accumulated emb size:torch.Size([1000, 12, 768])
+2024-02-11 22:23:49,383 :: root         : INFO     Time taken:110 seconds
+2024-02-11 22:23:49,444 :: root         : INFO     Accumulated emb size:torch.Size([1500, 12, 768])
+2024-02-11 22:25:44,983 :: root         : INFO     Time taken:115 seconds
+2024-02-11 22:25:44,999 :: root         : INFO     Accumulated emb size:torch.Size([2000, 12, 768])
+2024-02-11 22:26:05,980 :: root         : INFO     Time taken:20 seconds
+2024-02-11 22:26:05,998 :: root         : INFO     Accumulated emb size:torch.Size([2106, 12, 768])
+2024-02-11 22:26:06,000 :: root         : INFO     Bert features shape:(2106, 768)
+2024-02-11 22:26:06,216 :: root         : INFO     Training complete
+2024-02-11 22:26:06,219 :: root         : INFO     Confusion Matrix:
+[[  3  25]
+ [  0 183]]
+2024-02-11 22:26:06,228 :: root         : INFO     Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.11      0.19        28
+           1       0.88      1.00      0.94       183
+
+    accuracy                           0.88       211
+   macro avg       0.94      0.55      0.56       211
+weighted avg       0.90      0.88      0.84       211
+
+2024-02-11 22:31:00,930 :: root         : INFO     BERT has been loaded successfully
+2024-02-11 22:33:01,927 :: root         : INFO     Trainig data:(2106, 2)
+2024-02-11 22:33:01,930 :: root         : INFO     Class distribution:
+1    1872
+0     234
+Name: 1, dtype: int64
+2024-02-11 22:33:09,928 :: root         : INFO     BERT has been loaded successfully
+2024-02-11 22:33:10,369 :: root         : INFO     Maximum sentence length:12
+2024-02-11 22:33:10,446 :: root         : INFO     Padded array shape:(2106, 12)
+2024-02-11 22:33:10,454 :: root         : INFO     Attention mask shape:(2106, 12)
+2024-02-11 22:33:10,456 :: root         : INFO     Going to get BERT embeddings for 2106 records
+2024-02-11 22:33:10,459 :: root         : INFO     Running batch-wise. Original shape:(2106, 12)
+2024-02-11 22:35:03,311 :: root         : INFO     Time taken:112 seconds
+2024-02-11 22:36:53,035 :: root         : INFO     Time taken:109 seconds
+2024-02-11 22:36:53,043 :: root         : INFO     Accumulated emb size:torch.Size([1000, 12, 768])
+2024-02-11 22:38:42,698 :: root         : INFO     Time taken:109 seconds
+2024-02-11 22:38:42,717 :: root         : INFO     Accumulated emb size:torch.Size([1500, 12, 768])
+2024-02-11 22:40:32,903 :: root         : INFO     Time taken:110 seconds
+2024-02-11 22:40:32,927 :: root         : INFO     Accumulated emb size:torch.Size([2000, 12, 768])
+2024-02-11 22:40:53,704 :: root         : INFO     Time taken:20 seconds
+2024-02-11 22:40:53,729 :: root         : INFO     Accumulated emb size:torch.Size([2106, 12, 768])
+2024-02-11 22:40:53,734 :: root         : INFO     Bert features shape:(2106, 768)
+2024-02-11 22:40:53,954 :: root         : INFO     Training complete
+2024-02-11 22:40:53,959 :: root         : INFO     Confusion Matrix:
+[[  2  20]
+ [  0 189]]
+2024-02-11 22:40:53,969 :: root         : INFO     Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.09      0.17        22
+           1       0.90      1.00      0.95       189
+
+    accuracy                           0.91       211
+   macro avg       0.95      0.55      0.56       211
+weighted avg       0.91      0.91      0.87       211
+
+2024-02-11 22:46:48,603 :: root         : INFO     BERT has been loaded successfully
+2024-02-14 08:09:50,160 :: root         : INFO     Configured the logging successfully
+2024-02-14 08:10:09,449 :: root         : INFO     Trainig data:(2106, 2)
+2024-02-14 08:10:09,463 :: root         : INFO     Class distribution:
+1    1872
+0     234
+Name: 1, dtype: int64
+2024-02-14 08:10:15,959 :: root         : INFO     BERT has been loaded successfully
+2024-02-14 08:10:16,216 :: root         : INFO     Maximum sentence length:12
+2024-02-14 08:10:16,221 :: root         : INFO     Padded array shape:(2106, 12)
+2024-02-14 08:10:16,222 :: root         : INFO     Attention mask shape:(2106, 12)
+2024-02-14 08:10:16,224 :: root         : INFO     Going to get BERT embeddings for 2106 records
+2024-02-14 08:10:16,225 :: root         : INFO     Running batch-wise. Original shape:(2106, 12)
+2024-02-14 08:12:03,226 :: root         : INFO     Time taken:106 seconds
+2024-02-14 08:13:51,823 :: root         : INFO     Time taken:108 seconds
+2024-02-14 08:13:51,851 :: root         : INFO     Accumulated emb size:torch.Size([1000, 12, 768])
+2024-02-14 08:15:37,950 :: root         : INFO     Time taken:106 seconds
+2024-02-14 08:15:37,962 :: root         : INFO     Accumulated emb size:torch.Size([1500, 12, 768])
+2024-02-14 08:17:22,072 :: root         : INFO     Time taken:104 seconds
+2024-02-14 08:17:22,095 :: root         : INFO     Accumulated emb size:torch.Size([2000, 12, 768])
+2024-02-14 08:17:41,807 :: root         : INFO     Time taken:19 seconds
+2024-02-14 08:17:41,828 :: root         : INFO     Accumulated emb size:torch.Size([2106, 12, 768])
+2024-02-14 08:17:41,837 :: root         : INFO     Bert features shape:(2106, 768)
+2024-02-14 08:17:42,093 :: root         : INFO     Training complete
+2024-02-14 08:17:42,101 :: root         : INFO     Confusion Matrix:
+[[  3  16]
+ [  0 192]]
+2024-02-14 08:17:42,114 :: root         : INFO     Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.16      0.27        19
+           1       0.92      1.00      0.96       192
+
+    accuracy                           0.92       211
+   macro avg       0.96      0.58      0.62       211
+weighted avg       0.93      0.92      0.90       211
+
+2024-02-14 08:20:34,996 :: root         : INFO     BERT has been loaded successfully
+2024-02-14 08:21:49,883 :: root         : INFO     BERT has been loaded successfully
+2024-02-14 09:05:07,495 :: root         : INFO     BERT has been loaded successfully
+2024-02-14 22:50:42,363 :: root         : INFO     BERT has been loaded successfully
+2024-02-14 22:56:32,779 :: root         : INFO     BERT has been loaded successfully
+2024-02-14 22:56:32,789 :: root         : INFO     Padded array shape:(3, 11)
+2024-02-14 22:56:32,796 :: root         : INFO     Attention mask shape:(3, 11)
+2024-02-14 22:56:32,798 :: root         : INFO     Going to get BERT embeddings for 3 records
+2024-02-14 22:56:33,324 :: root         : INFO     Time taken:0 seconds
+2024-02-14 22:57:38,396 :: root         : INFO     BERT has been loaded successfully
+2024-02-14 22:57:38,401 :: root         : INFO     Padded array shape:(1, 11)
+2024-02-14 22:57:38,402 :: root         : INFO     Attention mask shape:(1, 11)
+2024-02-14 22:57:38,403 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-02-14 22:57:38,553 :: root         : INFO     Time taken:0 seconds
+2024-02-14 22:59:02,564 :: root         : INFO     BERT has been loaded successfully
+2024-02-14 22:59:02,567 :: root         : INFO     Padded array shape:(1, 11)
+2024-02-14 22:59:02,568 :: root         : INFO     Attention mask shape:(1, 11)
+2024-02-14 22:59:02,569 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-02-14 22:59:02,711 :: root         : INFO     Time taken:0 seconds
+2024-02-14 22:59:50,799 :: root         : INFO     BERT has been loaded successfully
+2024-02-14 22:59:50,802 :: root         : INFO     Padded array shape:(2, 11)
+2024-02-14 22:59:50,803 :: root         : INFO     Attention mask shape:(2, 11)
+2024-02-14 22:59:50,804 :: root         : INFO     Going to get BERT embeddings for 2 records
+2024-02-14 22:59:51,079 :: root         : INFO     Time taken:0 seconds
+2024-02-14 23:01:49,840 :: root         : INFO     BERT has been loaded successfully
+2024-02-14 23:01:49,844 :: root         : INFO     Padded array shape:(9, 12)
+2024-02-14 23:01:49,845 :: root         : INFO     Attention mask shape:(9, 12)
+2024-02-14 23:01:49,846 :: root         : INFO     Going to get BERT embeddings for 9 records
+2024-02-14 23:01:51,124 :: root         : INFO     Time taken:1 seconds
+2024-02-14 23:11:55,467 :: root         : INFO     BERT has been loaded successfully
+2024-02-14 23:11:55,470 :: root         : INFO     Padded array shape:(10, 12)
+2024-02-14 23:11:55,472 :: root         : INFO     Attention mask shape:(10, 12)
+2024-02-14 23:11:55,475 :: root         : INFO     Going to get BERT embeddings for 10 records
+2024-02-14 23:11:56,888 :: root         : INFO     Time taken:1 seconds
+2024-02-16 08:11:53,293 :: root         : INFO     Trainig data:(2340, 2)
+2024-02-16 08:11:53,317 :: root         : INFO     Class distribution:
+1    1872
+0     468
+Name: 1, dtype: int64
+2024-02-16 08:11:59,244 :: root         : INFO     BERT has been loaded successfully
+2024-02-16 08:11:59,528 :: root         : INFO     Maximum sentence length:12
+2024-02-16 08:11:59,534 :: root         : INFO     Padded array shape:(2340, 12)
+2024-02-16 08:11:59,537 :: root         : INFO     Attention mask shape:(2340, 12)
+2024-02-16 08:11:59,538 :: root         : INFO     Going to get BERT embeddings for 2340 records
+2024-02-16 08:11:59,540 :: root         : INFO     Running batch-wise. Original shape:(2340, 12)
+2024-02-16 08:13:51,701 :: root         : INFO     Time taken:112 seconds
+2024-02-16 08:15:43,927 :: root         : INFO     Time taken:112 seconds
+2024-02-16 08:15:43,959 :: root         : INFO     Accumulated emb size:torch.Size([1000, 12, 768])
+2024-02-16 08:17:34,128 :: root         : INFO     Time taken:110 seconds
+2024-02-16 08:17:34,142 :: root         : INFO     Accumulated emb size:torch.Size([1500, 12, 768])
+2024-02-16 08:19:19,424 :: root         : INFO     Time taken:103 seconds
+2024-02-16 08:19:19,439 :: root         : INFO     Accumulated emb size:torch.Size([2000, 12, 768])
+2024-02-16 08:20:29,608 :: root         : INFO     Time taken:70 seconds
+2024-02-16 08:20:29,627 :: root         : INFO     Accumulated emb size:torch.Size([2340, 12, 768])
+2024-02-16 08:20:29,634 :: root         : INFO     Bert features shape:(2340, 768)
+2024-02-16 08:20:29,995 :: root         : INFO     Training complete
+2024-02-16 08:20:30,011 :: root         : INFO     Confusion Matrix:
+[[ 15  31]
+ [  3 185]]
+2024-02-16 08:20:30,033 :: root         : INFO     Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.33      0.47        46
+           1       0.86      0.98      0.92       188
+
+    accuracy                           0.85       234
+   macro avg       0.84      0.66      0.69       234
+weighted avg       0.85      0.85      0.83       234
+
+2024-02-16 08:33:42,276 :: root         : INFO     BERT has been loaded successfully
+2024-02-16 08:33:42,284 :: root         : INFO     Padded array shape:(10, 12)
+2024-02-16 08:33:42,286 :: root         : INFO     Attention mask shape:(10, 12)
+2024-02-16 08:33:42,288 :: root         : INFO     Going to get BERT embeddings for 10 records
+2024-02-16 08:33:43,736 :: root         : INFO     Time taken:1 seconds
+2024-02-16 08:37:05,781 :: root         : INFO     BERT has been loaded successfully
+2024-02-16 08:37:05,785 :: root         : INFO     Padded array shape:(10, 12)
+2024-02-16 08:37:05,786 :: root         : INFO     Attention mask shape:(10, 12)
+2024-02-16 08:37:05,787 :: root         : INFO     Going to get BERT embeddings for 10 records
+2024-02-16 08:37:07,212 :: root         : INFO     Time taken:1 seconds
+2024-03-15 23:48:26,402 :: root         : INFO     Configured the logging successfully
+2024-03-15 23:49:59,915 :: root         : INFO     Trainig data:(45798, 2)
+2024-03-15 23:49:59,923 :: root         : INFO     Class distribution:
+1    40392
+0     5406
+Name: 1, dtype: int64
+2024-03-15 23:50:06,986 :: root         : INFO     BERT has been loaded successfully
+2024-03-15 23:50:12,839 :: root         : INFO     Maximum sentence length:18
+2024-03-15 23:50:13,324 :: root         : INFO     Padded array shape:(45798, 18)
+2024-03-15 23:50:13,329 :: root         : INFO     Attention mask shape:(45798, 18)
+2024-03-15 23:50:13,331 :: root         : INFO     Going to get BERT embeddings for 45798 records
+2024-03-15 23:50:13,331 :: root         : INFO     Running batch-wise. Original shape:(45798, 18)
+2024-03-15 23:53:02,315 :: root         : INFO     Time taken:168 seconds
+2024-03-15 23:55:43,435 :: root         : INFO     Time taken:161 seconds
+2024-03-15 23:55:43,457 :: root         : INFO     Accumulated emb size:torch.Size([1000, 18, 768])
+2024-03-15 23:58:24,979 :: root         : INFO     Time taken:161 seconds
+2024-03-15 23:58:24,998 :: root         : INFO     Accumulated emb size:torch.Size([1500, 18, 768])
+2024-03-16 00:01:06,424 :: root         : INFO     Time taken:161 seconds
+2024-03-16 00:01:06,445 :: root         : INFO     Accumulated emb size:torch.Size([2000, 18, 768])
+2024-03-16 00:03:47,306 :: root         : INFO     Time taken:160 seconds
+2024-03-16 00:03:47,336 :: root         : INFO     Accumulated emb size:torch.Size([2500, 18, 768])
+2024-03-16 00:06:29,468 :: root         : INFO     Time taken:162 seconds
+2024-03-16 00:06:29,509 :: root         : INFO     Accumulated emb size:torch.Size([3000, 18, 768])
+2024-03-16 00:09:11,272 :: root         : INFO     Time taken:161 seconds
+2024-03-16 00:09:11,307 :: root         : INFO     Accumulated emb size:torch.Size([3500, 18, 768])
+2024-03-16 00:11:53,318 :: root         : INFO     Time taken:162 seconds
+2024-03-16 00:11:53,367 :: root         : INFO     Accumulated emb size:torch.Size([4000, 18, 768])
+2024-03-16 00:14:35,586 :: root         : INFO     Time taken:162 seconds
+2024-03-16 00:14:35,652 :: root         : INFO     Accumulated emb size:torch.Size([4500, 18, 768])
+2024-03-16 00:17:16,242 :: root         : INFO     Time taken:160 seconds
+2024-03-16 00:17:16,325 :: root         : INFO     Accumulated emb size:torch.Size([5000, 18, 768])
+2024-03-16 00:19:58,384 :: root         : INFO     Time taken:162 seconds
+2024-03-16 00:19:58,468 :: root         : INFO     Accumulated emb size:torch.Size([5500, 18, 768])
+2024-03-16 00:22:40,344 :: root         : INFO     Time taken:161 seconds
+2024-03-16 00:22:40,432 :: root         : INFO     Accumulated emb size:torch.Size([6000, 18, 768])
+2024-03-16 00:25:21,683 :: root         : INFO     Time taken:161 seconds
+2024-03-16 00:25:21,765 :: root         : INFO     Accumulated emb size:torch.Size([6500, 18, 768])
+2024-03-16 00:28:06,748 :: root         : INFO     Time taken:164 seconds
+2024-03-16 00:28:06,860 :: root         : INFO     Accumulated emb size:torch.Size([7000, 18, 768])
+2024-03-16 00:30:52,877 :: root         : INFO     Time taken:166 seconds
+2024-03-16 00:30:53,000 :: root         : INFO     Accumulated emb size:torch.Size([7500, 18, 768])
+2024-03-16 00:33:39,916 :: root         : INFO     Time taken:166 seconds
+2024-03-16 00:33:40,051 :: root         : INFO     Accumulated emb size:torch.Size([8000, 18, 768])
+2024-03-16 00:36:25,117 :: root         : INFO     Time taken:165 seconds
+2024-03-16 00:36:25,244 :: root         : INFO     Accumulated emb size:torch.Size([8500, 18, 768])
+2024-03-16 00:39:11,106 :: root         : INFO     Time taken:165 seconds
+2024-03-16 00:39:11,258 :: root         : INFO     Accumulated emb size:torch.Size([9000, 18, 768])
+2024-03-16 00:41:55,514 :: root         : INFO     Time taken:164 seconds
+2024-03-16 00:41:55,679 :: root         : INFO     Accumulated emb size:torch.Size([9500, 18, 768])
+2024-03-16 00:44:39,373 :: root         : INFO     Time taken:163 seconds
+2024-03-16 00:44:39,538 :: root         : INFO     Accumulated emb size:torch.Size([10000, 18, 768])
+2024-03-16 00:47:22,861 :: root         : INFO     Time taken:163 seconds
+2024-03-16 00:47:23,044 :: root         : INFO     Accumulated emb size:torch.Size([10500, 18, 768])
+2024-03-16 00:50:07,175 :: root         : INFO     Time taken:164 seconds
+2024-03-16 00:50:07,383 :: root         : INFO     Accumulated emb size:torch.Size([11000, 18, 768])
+2024-03-16 00:52:53,398 :: root         : INFO     Time taken:166 seconds
+2024-03-16 00:52:53,612 :: root         : INFO     Accumulated emb size:torch.Size([11500, 18, 768])
+2024-03-16 05:48:45,834 :: root         : INFO     Time taken:17752 seconds
+2024-03-16 05:48:46,043 :: root         : INFO     Accumulated emb size:torch.Size([12000, 18, 768])
+2024-03-16 05:51:23,640 :: root         : INFO     Time taken:157 seconds
+2024-03-16 05:51:23,793 :: root         : INFO     Accumulated emb size:torch.Size([12500, 18, 768])
+2024-03-16 05:54:08,442 :: root         : INFO     Time taken:164 seconds
+2024-03-16 05:54:08,657 :: root         : INFO     Accumulated emb size:torch.Size([13000, 18, 768])
+2024-03-16 05:56:49,671 :: root         : INFO     Time taken:161 seconds
+2024-03-16 05:56:49,845 :: root         : INFO     Accumulated emb size:torch.Size([13500, 18, 768])
+2024-03-16 05:59:35,130 :: root         : INFO     Time taken:165 seconds
+2024-03-16 05:59:35,346 :: root         : INFO     Accumulated emb size:torch.Size([14000, 18, 768])
+2024-03-16 06:02:17,577 :: root         : INFO     Time taken:162 seconds
+2024-03-16 06:02:17,758 :: root         : INFO     Accumulated emb size:torch.Size([14500, 18, 768])
+2024-03-16 06:04:58,327 :: root         : INFO     Time taken:160 seconds
+2024-03-16 06:04:58,504 :: root         : INFO     Accumulated emb size:torch.Size([15000, 18, 768])
+2024-03-16 06:07:38,994 :: root         : INFO     Time taken:160 seconds
+2024-03-16 06:07:39,183 :: root         : INFO     Accumulated emb size:torch.Size([15500, 18, 768])
+2024-03-16 06:10:18,694 :: root         : INFO     Time taken:159 seconds
+2024-03-16 06:10:18,867 :: root         : INFO     Accumulated emb size:torch.Size([16000, 18, 768])
+2024-03-16 06:12:56,212 :: root         : INFO     Time taken:157 seconds
+2024-03-16 06:12:56,444 :: root         : INFO     Accumulated emb size:torch.Size([16500, 18, 768])
+2024-03-16 06:15:33,126 :: root         : INFO     Time taken:156 seconds
+2024-03-16 06:15:33,322 :: root         : INFO     Accumulated emb size:torch.Size([17000, 18, 768])
+2024-03-16 06:18:16,175 :: root         : INFO     Time taken:162 seconds
+2024-03-16 06:18:16,436 :: root         : INFO     Accumulated emb size:torch.Size([17500, 18, 768])
+2024-03-16 06:20:56,714 :: root         : INFO     Time taken:160 seconds
+2024-03-16 06:20:56,990 :: root         : INFO     Accumulated emb size:torch.Size([18000, 18, 768])
+2024-03-16 06:23:33,351 :: root         : INFO     Time taken:156 seconds
+2024-03-16 06:23:33,578 :: root         : INFO     Accumulated emb size:torch.Size([18500, 18, 768])
+2024-03-16 06:26:13,367 :: root         : INFO     Time taken:159 seconds
+2024-03-16 06:26:13,680 :: root         : INFO     Accumulated emb size:torch.Size([19000, 18, 768])
+2024-03-16 06:28:50,582 :: root         : INFO     Time taken:156 seconds
+2024-03-16 06:28:50,859 :: root         : INFO     Accumulated emb size:torch.Size([19500, 18, 768])
+2024-03-16 06:50:06,165 :: root         : INFO     Time taken:1275 seconds
+2024-03-16 06:50:06,616 :: root         : INFO     Accumulated emb size:torch.Size([20000, 18, 768])
+2024-03-16 06:52:43,402 :: root         : INFO     Time taken:156 seconds
+2024-03-16 06:52:43,675 :: root         : INFO     Accumulated emb size:torch.Size([20500, 18, 768])
+2024-03-16 06:55:21,644 :: root         : INFO     Time taken:157 seconds
+2024-03-16 06:55:21,883 :: root         : INFO     Accumulated emb size:torch.Size([21000, 18, 768])
+2024-03-16 06:57:58,114 :: root         : INFO     Time taken:156 seconds
+2024-03-16 06:57:58,388 :: root         : INFO     Accumulated emb size:torch.Size([21500, 18, 768])
+2024-03-16 07:00:35,692 :: root         : INFO     Time taken:157 seconds
+2024-03-16 07:00:35,934 :: root         : INFO     Accumulated emb size:torch.Size([22000, 18, 768])
+2024-03-16 07:03:12,688 :: root         : INFO     Time taken:156 seconds
+2024-03-16 07:03:12,922 :: root         : INFO     Accumulated emb size:torch.Size([22500, 18, 768])
+2024-03-16 07:05:49,566 :: root         : INFO     Time taken:156 seconds
+2024-03-16 07:05:49,832 :: root         : INFO     Accumulated emb size:torch.Size([23000, 18, 768])
+2024-03-16 07:08:26,163 :: root         : INFO     Time taken:156 seconds
+2024-03-16 07:08:26,472 :: root         : INFO     Accumulated emb size:torch.Size([23500, 18, 768])
+2024-03-16 07:11:03,104 :: root         : INFO     Time taken:156 seconds
+2024-03-16 07:11:03,371 :: root         : INFO     Accumulated emb size:torch.Size([24000, 18, 768])
+2024-03-16 07:13:45,914 :: root         : INFO     Time taken:162 seconds
+2024-03-16 07:13:46,305 :: root         : INFO     Accumulated emb size:torch.Size([24500, 18, 768])
+2024-03-16 07:16:31,006 :: root         : INFO     Time taken:164 seconds
+2024-03-16 07:16:31,290 :: root         : INFO     Accumulated emb size:torch.Size([25000, 18, 768])
+2024-03-16 07:19:16,968 :: root         : INFO     Time taken:165 seconds
+2024-03-16 07:19:17,377 :: root         : INFO     Accumulated emb size:torch.Size([25500, 18, 768])
+2024-03-16 07:22:04,351 :: root         : INFO     Time taken:166 seconds
+2024-03-16 07:22:04,755 :: root         : INFO     Accumulated emb size:torch.Size([26000, 18, 768])
+2024-03-16 07:24:42,063 :: root         : INFO     Time taken:157 seconds
+2024-03-16 07:24:42,441 :: root         : INFO     Accumulated emb size:torch.Size([26500, 18, 768])
+2024-03-16 07:27:22,020 :: root         : INFO     Time taken:159 seconds
+2024-03-16 07:27:22,568 :: root         : INFO     Accumulated emb size:torch.Size([27000, 18, 768])
+2024-03-16 07:30:00,991 :: root         : INFO     Time taken:158 seconds
+2024-03-16 07:30:01,370 :: root         : INFO     Accumulated emb size:torch.Size([27500, 18, 768])
+2024-03-16 07:32:42,328 :: root         : INFO     Time taken:160 seconds
+2024-03-16 07:32:42,921 :: root         : INFO     Accumulated emb size:torch.Size([28000, 18, 768])
+2024-03-16 07:35:19,660 :: root         : INFO     Time taken:156 seconds
+2024-03-16 07:35:20,066 :: root         : INFO     Accumulated emb size:torch.Size([28500, 18, 768])
+2024-03-16 07:37:56,854 :: root         : INFO     Time taken:156 seconds
+2024-03-16 07:37:57,323 :: root         : INFO     Accumulated emb size:torch.Size([29000, 18, 768])
+2024-03-16 07:40:34,115 :: root         : INFO     Time taken:156 seconds
+2024-03-16 07:40:34,615 :: root         : INFO     Accumulated emb size:torch.Size([29500, 18, 768])
+2024-03-16 07:43:11,409 :: root         : INFO     Time taken:156 seconds
+2024-03-16 07:43:11,847 :: root         : INFO     Accumulated emb size:torch.Size([30000, 18, 768])
+2024-03-16 07:45:48,692 :: root         : INFO     Time taken:156 seconds
+2024-03-16 07:45:49,474 :: root         : INFO     Accumulated emb size:torch.Size([30500, 18, 768])
+2024-03-16 07:48:26,569 :: root         : INFO     Time taken:157 seconds
+2024-03-16 07:48:26,991 :: root         : INFO     Accumulated emb size:torch.Size([31000, 18, 768])
+2024-03-16 07:51:04,157 :: root         : INFO     Time taken:157 seconds
+2024-03-16 07:51:04,558 :: root         : INFO     Accumulated emb size:torch.Size([31500, 18, 768])
+2024-03-16 07:53:49,952 :: root         : INFO     Time taken:165 seconds
+2024-03-16 07:53:52,462 :: root         : INFO     Accumulated emb size:torch.Size([32000, 18, 768])
+2024-03-16 07:56:38,562 :: root         : INFO     Time taken:166 seconds
+2024-03-16 07:56:41,182 :: root         : INFO     Accumulated emb size:torch.Size([32500, 18, 768])
+2024-03-16 07:59:26,458 :: root         : INFO     Time taken:165 seconds
+2024-03-16 07:59:28,032 :: root         : INFO     Accumulated emb size:torch.Size([33000, 18, 768])
+2024-03-16 08:02:12,459 :: root         : INFO     Time taken:164 seconds
+2024-03-16 08:02:14,249 :: root         : INFO     Accumulated emb size:torch.Size([33500, 18, 768])
+2024-03-16 08:04:57,493 :: root         : INFO     Time taken:163 seconds
+2024-03-16 08:04:57,917 :: root         : INFO     Accumulated emb size:torch.Size([34000, 18, 768])
+2024-03-16 08:07:40,400 :: root         : INFO     Time taken:162 seconds
+2024-03-16 08:07:40,786 :: root         : INFO     Accumulated emb size:torch.Size([34500, 18, 768])
+2024-03-16 08:10:23,247 :: root         : INFO     Time taken:162 seconds
+2024-03-16 08:10:23,673 :: root         : INFO     Accumulated emb size:torch.Size([35000, 18, 768])
+2024-03-16 08:13:06,131 :: root         : INFO     Time taken:162 seconds
+2024-03-16 08:13:06,542 :: root         : INFO     Accumulated emb size:torch.Size([35500, 18, 768])
+2024-03-16 08:15:58,815 :: root         : INFO     Time taken:172 seconds
+2024-03-16 08:16:00,448 :: root         : INFO     Accumulated emb size:torch.Size([36000, 18, 768])
+2024-03-16 08:18:47,168 :: root         : INFO     Time taken:166 seconds
+2024-03-16 08:18:48,852 :: root         : INFO     Accumulated emb size:torch.Size([36500, 18, 768])
+2024-03-16 08:21:31,449 :: root         : INFO     Time taken:162 seconds
+2024-03-16 08:21:34,360 :: root         : INFO     Accumulated emb size:torch.Size([37000, 18, 768])
+2024-03-16 08:24:14,418 :: root         : INFO     Time taken:160 seconds
+2024-03-16 08:24:16,146 :: root         : INFO     Accumulated emb size:torch.Size([37500, 18, 768])
+2024-03-16 08:26:54,322 :: root         : INFO     Time taken:158 seconds
+2024-03-16 08:26:54,980 :: root         : INFO     Accumulated emb size:torch.Size([38000, 18, 768])
+2024-03-16 08:52:42,930 :: root         : INFO     Time taken:1547 seconds
+2024-03-16 08:52:48,390 :: root         : INFO     Accumulated emb size:torch.Size([38500, 18, 768])
+2024-03-16 08:55:27,848 :: root         : INFO     Time taken:159 seconds
+2024-03-16 08:55:31,316 :: root         : INFO     Accumulated emb size:torch.Size([39000, 18, 768])
+2024-03-16 08:58:11,295 :: root         : INFO     Time taken:159 seconds
+2024-03-16 08:58:14,733 :: root         : INFO     Accumulated emb size:torch.Size([39500, 18, 768])
+2024-03-16 09:00:57,820 :: root         : INFO     Time taken:163 seconds
+2024-03-16 09:01:00,038 :: root         : INFO     Accumulated emb size:torch.Size([40000, 18, 768])
+2024-03-16 09:03:38,344 :: root         : INFO     Time taken:158 seconds
+2024-03-16 09:03:39,710 :: root         : INFO     Accumulated emb size:torch.Size([40500, 18, 768])
+2024-03-16 09:06:20,185 :: root         : INFO     Time taken:160 seconds
+2024-03-16 09:06:23,103 :: root         : INFO     Accumulated emb size:torch.Size([41000, 18, 768])
+2024-03-16 09:09:11,004 :: root         : INFO     Time taken:167 seconds
+2024-03-16 09:09:15,570 :: root         : INFO     Accumulated emb size:torch.Size([41500, 18, 768])
+2024-03-16 11:20:55,857 :: root         : INFO     Time taken:7900 seconds
+2024-03-16 11:21:07,644 :: root         : INFO     Accumulated emb size:torch.Size([42000, 18, 768])
+2024-03-16 11:23:59,119 :: root         : INFO     Time taken:171 seconds
+2024-03-16 11:24:08,422 :: root         : INFO     Accumulated emb size:torch.Size([42500, 18, 768])
+2024-03-16 12:39:33,836 :: root         : INFO     Time taken:4525 seconds
+2024-03-16 12:39:43,789 :: root         : INFO     Accumulated emb size:torch.Size([43000, 18, 768])
+2024-03-16 12:42:32,309 :: root         : INFO     Time taken:168 seconds
+2024-03-16 12:42:39,695 :: root         : INFO     Accumulated emb size:torch.Size([43500, 18, 768])
+2024-03-16 12:45:30,224 :: root         : INFO     Time taken:170 seconds
+2024-03-16 12:45:35,173 :: root         : INFO     Accumulated emb size:torch.Size([44000, 18, 768])
+2024-03-16 12:48:22,050 :: root         : INFO     Time taken:166 seconds
+2024-03-16 12:48:28,392 :: root         : INFO     Accumulated emb size:torch.Size([44500, 18, 768])
+2024-03-16 12:51:17,042 :: root         : INFO     Time taken:168 seconds
+2024-03-16 12:51:21,614 :: root         : INFO     Accumulated emb size:torch.Size([45000, 18, 768])
+2024-03-16 12:54:11,951 :: root         : INFO     Time taken:170 seconds
+2024-03-16 12:54:21,640 :: root         : INFO     Accumulated emb size:torch.Size([45500, 18, 768])
+2024-03-16 12:56:07,590 :: root         : INFO     Time taken:105 seconds
+2024-03-16 12:56:12,454 :: root         : INFO     Accumulated emb size:torch.Size([45798, 18, 768])
+2024-03-16 12:56:12,517 :: root         : INFO     Bert features shape:(45798, 768)
+2024-03-16 12:56:17,233 :: root         : INFO     Training complete
+2024-03-16 12:56:17,272 :: root         : INFO     Confusion Matrix:
+[[ 235  304]
+ [  58 3983]]
+2024-03-16 12:56:17,305 :: root         : INFO     Report:
+              precision    recall  f1-score   support
+
+           0       0.80      0.44      0.56       539
+           1       0.93      0.99      0.96      4041
+
+    accuracy                           0.92      4580
+   macro avg       0.87      0.71      0.76      4580
+weighted avg       0.91      0.92      0.91      4580
+
+2024-03-16 13:19:38,248 :: root         : INFO     BERT has been loaded successfully
+2024-03-16 13:19:38,271 :: root         : INFO     Padded array shape:(1, 9)
+2024-03-16 13:19:38,272 :: root         : INFO     Attention mask shape:(1, 9)
+2024-03-16 13:19:38,273 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-03-16 13:19:38,562 :: root         : INFO     Time taken:0 seconds
+2024-03-16 13:21:56,803 :: root         : INFO     BERT has been loaded successfully
+2024-03-16 13:21:56,805 :: root         : INFO     Padded array shape:(1, 8)
+2024-03-16 13:21:56,807 :: root         : INFO     Attention mask shape:(1, 8)
+2024-03-16 13:21:56,808 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-03-16 13:21:56,983 :: root         : INFO     Time taken:0 seconds
+2024-03-16 13:22:40,267 :: root         : INFO     BERT has been loaded successfully
+2024-03-16 13:22:40,270 :: root         : INFO     Padded array shape:(1, 9)
+2024-03-16 13:22:40,271 :: root         : INFO     Attention mask shape:(1, 9)
+2024-03-16 13:22:40,272 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-03-16 13:22:40,478 :: root         : INFO     Time taken:0 seconds
+2024-03-16 14:55:03,715 :: root         : INFO     Configured the logging successfully
+2024-03-16 15:04:53,164 :: root         : INFO     Configured the logging successfully
+2024-03-22 22:35:20,410 :: root         : INFO     BERT has been loaded successfully
+2024-03-22 22:37:41,012 :: root         : INFO     BERT has been loaded successfully
+2024-03-22 22:37:41,028 :: root         : INFO     Padded array shape:(1, 128)
+2024-03-22 22:37:41,047 :: root         : INFO     Attention mask shape:(1, 128)
+2024-03-22 22:37:41,050 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-03-22 22:37:42,749 :: root         : INFO     Time taken:1 seconds
+2024-03-22 22:38:51,781 :: root         : INFO     BERT has been loaded successfully
+2024-03-22 22:38:51,783 :: root         : INFO     Padded array shape:(1, 128)
+2024-03-22 22:38:51,785 :: root         : INFO     Attention mask shape:(1, 128)
+2024-03-22 22:38:51,786 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-03-22 22:38:53,342 :: root         : INFO     Time taken:1 seconds
+2024-03-22 22:39:35,788 :: root         : INFO     BERT has been loaded successfully
+2024-03-22 22:39:35,793 :: root         : INFO     Padded array shape:(1, 128)
+2024-03-22 22:39:35,795 :: root         : INFO     Attention mask shape:(1, 128)
+2024-03-22 22:39:35,797 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-03-22 22:39:37,412 :: root         : INFO     Time taken:1 seconds
+2024-03-22 22:40:04,736 :: root         : INFO     BERT has been loaded successfully
+2024-03-22 22:40:04,738 :: root         : INFO     Padded array shape:(1, 128)
+2024-03-22 22:40:04,739 :: root         : INFO     Attention mask shape:(1, 128)
+2024-03-22 22:40:04,740 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-03-22 22:40:06,312 :: root         : INFO     Time taken:1 seconds
+2024-03-22 22:40:25,508 :: root         : INFO     BERT has been loaded successfully
+2024-03-22 22:40:25,510 :: root         : INFO     Padded array shape:(1, 128)
+2024-03-22 22:40:25,512 :: root         : INFO     Attention mask shape:(1, 128)
+2024-03-22 22:40:25,512 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-03-22 22:40:27,066 :: root         : INFO     Time taken:1 seconds
+2024-03-23 12:06:23,227 :: root         : INFO     Configured the logging successfully
+2024-03-23 12:08:31,590 :: root         : INFO     Configured the logging successfully
+2024-03-23 12:11:48,757 :: root         : INFO     Configured the logging successfully
+2024-03-23 12:52:42,524 :: root         : INFO     BERT has been loaded successfully
+2024-03-23 12:52:42,537 :: root         : INFO     Padded array shape:(1, 10)
+2024-03-23 12:52:42,539 :: root         : INFO     Attention mask shape:(1, 10)
+2024-03-23 12:52:42,544 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-03-23 12:52:42,746 :: root         : INFO     Time taken:0 seconds
+2024-03-23 12:53:13,614 :: root         : INFO     BERT has been loaded successfully
+2024-03-23 12:53:13,617 :: root         : INFO     Padded array shape:(1, 10)
+2024-03-23 12:53:13,618 :: root         : INFO     Attention mask shape:(1, 10)
+2024-03-23 12:53:13,618 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-03-23 12:53:13,753 :: root         : INFO     Time taken:0 seconds
+2024-03-23 12:54:39,256 :: root         : INFO     BERT has been loaded successfully
+2024-03-23 12:54:39,259 :: root         : INFO     Padded array shape:(1, 11)
+2024-03-23 12:54:39,260 :: root         : INFO     Attention mask shape:(1, 11)
+2024-03-23 12:54:39,261 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-03-23 12:54:39,409 :: root         : INFO     Time taken:0 seconds
+2024-03-23 12:55:39,734 :: root         : INFO     BERT has been loaded successfully
+2024-03-23 12:55:39,736 :: root         : INFO     Padded array shape:(1, 12)
+2024-03-23 12:55:39,744 :: root         : INFO     Attention mask shape:(1, 12)
+2024-03-23 12:55:39,756 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-03-23 12:55:39,920 :: root         : INFO     Time taken:0 seconds
