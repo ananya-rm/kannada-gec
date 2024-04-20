@@ -1,8 +1,9 @@
 from flask import Flask, request,render_template
-from model import SpellCheckerModule
+import spell as sp
+import error_correction_model as corr
+import detection as md
 
 app = Flask(__name__)
-spell_checker_module = SpellCheckerModule()
 
 # routes
 @app.route('/')
@@ -12,15 +13,21 @@ def index():
 def spell():
     if request.method=='POST':
         text = request.form['text']
-        corrected_text = spell_checker_module.correct_spellings_kannada_hunspell(text)
+        corrected_text = sp.correct_spellings_kannada_hunspell(text)
         return render_template('result.html',corrected_text=corrected_text)
-# @app.route('/grammar',methods=['POST','GET'])
-# def grammar():
-#     if request.method == 'POST':
-#         text = request.form['gtext']
-#         corrected_text = grammar_checker_module.correct_spellings_kannada_hunspell(text)
-#         return render_template('index.html',corrected_text=corrected_text)
-#     return render_template('index.html',corrected_file_text=corrected_file_text,corrected_file_grammar=corrected_file_grammar)
+@app.route('/grammar',methods=['POST','GET'])
+def grammar():
+    if request.method == 'POST':
+        text = request.form['text']
+        corrected_text = corr.grammar_correct(text)
+        
+        return render_template('result.html',corrected_text=corrected_text)
+@app.route('/error-detect', methods=['POST','GET'])
+def detection():
+    if request.method == 'POST':
+        text = request.form['text']
+        corrected_text = md.detect(text)
+        return render_template('result.html',corrected_text=corrected_text)
 
 # python main
 if __name__ == "__main__":

@@ -1,6 +1,16 @@
+import re
 from hunspell import Hunspell
 
 def correct_spellings_kannada_hunspell(text, dict_path="C:/Users/anany/Desktop/project/kn"):
+
+    kannada_pattern = re.compile(r'[\u0C80-\u0CFF]+')
+
+    # Check if the text contains Kannada characters
+    b = bool(re.search(kannada_pattern, text))
+
+    if(b != True):
+        return "Please enter text in Kannada"
+
     # Initialize Hunspell with the Kannada dictionary
     kannada_dict_path = "C:/Users/anany/Desktop/dictionary/kn"
     kannada_affix_path = "C:/Users/anany/Desktop/dictionary/kn"
