@@ -1004,3 +1004,1065 @@ weighted avg       0.91      0.92      0.91      4580
 2024-04-19 08:50:37,274 :: root         : INFO     Configured the logging successfully
 2024-04-19 08:50:37,287 :: werkzeug     : WARNING   * Debugger is active!
 2024-04-19 08:50:37,295 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-04-20 22:15:46,658 :: root         : INFO     Configured the logging successfully
+2024-04-20 22:15:46,686 :: werkzeug     : INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-20 22:15:46,687 :: werkzeug     : INFO     [33mPress CTRL+C to quit[0m
+2024-04-20 22:15:46,705 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-04-20 22:15:56,840 :: root         : INFO     Configured the logging successfully
+2024-04-20 22:15:56,851 :: werkzeug     : WARNING   * Debugger is active!
+2024-04-20 22:15:56,863 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-04-20 22:15:57,424 :: werkzeug     : INFO     127.0.0.1 - - [20/Apr/2024 22:15:57] "GET / HTTP/1.1" 200 -
+2024-04-20 22:15:59,547 :: werkzeug     : INFO     127.0.0.1 - - [20/Apr/2024 22:15:59] "GET / HTTP/1.1" 200 -
+2024-04-20 22:16:00,127 :: werkzeug     : INFO     127.0.0.1 - - [20/Apr/2024 22:16:00] "GET / HTTP/1.1" 200 -
+2024-04-20 22:16:00,760 :: werkzeug     : INFO     127.0.0.1 - - [20/Apr/2024 22:16:00] "GET / HTTP/1.1" 200 -
+2024-04-20 22:16:20,962 :: werkzeug     : INFO     127.0.0.1 - - [20/Apr/2024 22:16:20] "POST /spell HTTP/1.1" 200 -
+2024-04-20 22:16:25,720 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+2024-04-20 22:16:25,727 :: werkzeug     : INFO     127.0.0.1 - - [20/Apr/2024 22:16:25] "[35m[1mPOST /download HTTP/1.1[0m" 500 -
+2024-04-20 22:16:25,745 :: werkzeug     : INFO     127.0.0.1 - - [20/Apr/2024 22:16:25] "GET /download?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-20 22:16:25,746 :: werkzeug     : INFO     127.0.0.1 - - [20/Apr/2024 22:16:25] "GET /download?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-20 22:16:25,759 :: werkzeug     : INFO     127.0.0.1 - - [20/Apr/2024 22:16:25] "GET /download?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-20 22:16:25,816 :: werkzeug     : INFO     127.0.0.1 - - [20/Apr/2024 22:16:25] "[36mGET /download?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-20 22:16:27,791 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-04-20 22:16:38,134 :: root         : INFO     Configured the logging successfully
+2024-04-20 22:16:38,147 :: werkzeug     : WARNING   * Debugger is active!
+2024-04-20 22:16:38,159 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-04-20 22:17:25,621 :: werkzeug     : INFO     127.0.0.1 - - [20/Apr/2024 22:17:25] "POST /spell HTTP/1.1" 200 -
+2024-04-20 22:17:31,041 :: werkzeug     : INFO     127.0.0.1 - - [20/Apr/2024 22:17:31] "[35m[1mPOST /download HTTP/1.1[0m" 500 -
+2024-04-20 22:17:31,055 :: werkzeug     : INFO     127.0.0.1 - - [20/Apr/2024 22:17:31] "[36mGET /download?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-20 22:17:31,057 :: werkzeug     : INFO     127.0.0.1 - - [20/Apr/2024 22:17:31] "[36mGET /download?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-20 22:17:31,073 :: werkzeug     : INFO     127.0.0.1 - - [20/Apr/2024 22:17:31] "[36mGET /download?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-21 08:24:29,624 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\tensorflow\\python\\framework\\registry.py', reloading
+2024-04-21 08:24:29,628 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\tensorflow\\python\\framework\\ops.py', reloading
+2024-04-21 08:24:29,631 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\tensorflow\\python\\ops\\array_ops.py', reloading
+2024-04-21 08:24:29,702 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\tensorflow\\python\\ops\\list_ops.py', reloading
+2024-04-21 08:24:29,760 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\tensorflow\\python\\ops\\math_ops.py', reloading
+2024-04-21 08:24:29,820 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\tensorflow\\python\\ops\\control_flow_ops.py', reloading
+2024-04-21 08:24:29,828 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\tensorflow\\python\\ops\\check_ops.py', reloading
+2024-04-21 08:24:29,846 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_tensor.py', reloading
+2024-04-21 08:24:32,296 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-04-21 08:24:43,348 :: root         : INFO     Configured the logging successfully
+2024-04-21 08:24:43,363 :: werkzeug     : WARNING   * Debugger is active!
+2024-04-21 08:24:43,374 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-04-22 12:54:22,248 :: werkzeug     : INFO     127.0.0.1 - - [22/Apr/2024 12:54:22] "GET / HTTP/1.1" 200 -
+2024-04-22 12:55:03,299 :: werkzeug     : INFO     127.0.0.1 - - [22/Apr/2024 12:55:03] "GET / HTTP/1.1" 200 -
+2024-05-02 09:56:57,065 :: root         : INFO     Configured the logging successfully
+2024-05-02 09:56:57,099 :: werkzeug     : INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-02 09:56:57,100 :: werkzeug     : INFO     [33mPress CTRL+C to quit[0m
+2024-05-02 09:56:57,124 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-02 09:57:08,706 :: root         : INFO     Configured the logging successfully
+2024-05-02 09:57:08,724 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-02 09:57:08,751 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-02 09:57:08,884 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:57:08] "GET / HTTP/1.1" 200 -
+2024-05-02 09:57:08,897 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:57:08] "GET / HTTP/1.1" 200 -
+2024-05-02 09:57:09,696 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:57:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-02 09:57:22,832 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+2024-05-02 09:57:22,840 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:57:22] "[35m[1mGET /spell?file_path= HTTP/1.1[0m" 500 -
+2024-05-02 09:57:22,866 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:57:22] "GET /spell?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-02 09:57:22,872 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:57:22] "GET /spell?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-02 09:57:22,975 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:57:22] "GET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-02 09:57:22,988 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:57:22] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-02 09:57:25,197 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-02 09:57:37,973 :: root         : INFO     Configured the logging successfully
+2024-05-02 09:57:37,987 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-02 09:57:37,999 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-02 09:58:41,960 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-02 09:58:41,964 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-02 09:58:44,044 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-02 09:58:54,933 :: root         : INFO     Configured the logging successfully
+2024-05-02 09:58:54,944 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-02 09:58:54,956 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-02 09:58:59,343 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:58:59] "[35m[1mGET /spell?file_path= HTTP/1.1[0m" 500 -
+2024-05-02 09:58:59,376 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:58:59] "[36mGET /spell?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-02 09:58:59,382 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:58:59] "[36mGET /spell?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-02 09:58:59,415 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:58:59] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-02 09:58:59,424 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:58:59] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-02 09:59:04,557 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:59:04] "GET / HTTP/1.1" 200 -
+2024-05-02 09:59:20,054 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:59:20] "[35m[1mGET /spell?file_path= HTTP/1.1[0m" 500 -
+2024-05-02 09:59:20,067 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:59:20] "[36mGET /spell?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-02 09:59:20,079 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:59:20] "[36mGET /spell?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-02 09:59:20,125 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 09:59:20] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-02 10:00:15,443 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-02 10:00:17,507 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-02 10:00:25,969 :: root         : INFO     Configured the logging successfully
+2024-05-02 10:00:25,978 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-02 10:00:25,991 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-02 10:00:31,569 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:00:31] "GET / HTTP/1.1" 200 -
+2024-05-02 10:00:43,791 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:00:43] "[35m[1mGET /spell?file_path= HTTP/1.1[0m" 500 -
+2024-05-02 10:00:43,814 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:00:43] "[36mGET /spell?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-02 10:00:43,827 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:00:43] "[36mGET /spell?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-02 10:00:43,854 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:00:43] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-02 10:00:50,270 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\_pytest\\cacheprovider.py', reloading
+2024-05-02 10:00:52,305 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-02 10:01:00,276 :: root         : INFO     Configured the logging successfully
+2024-05-02 10:01:00,288 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-02 10:01:00,298 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-02 10:06:31,362 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:06:31] "[35m[1mGET /spell?file_path= HTTP/1.1[0m" 500 -
+2024-05-02 10:06:31,383 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:06:31] "[36mGET /spell?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-02 10:06:31,388 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:06:31] "[36mGET /spell?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-02 10:06:31,426 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:06:31] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-02 10:06:31,443 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:06:31] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-02 10:06:34,266 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:06:34] "GET / HTTP/1.1" 200 -
+2024-05-02 10:06:44,478 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\flask\\debughelpers.py', reloading
+2024-05-02 10:06:44,500 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\werkzeug\\datastructures.py', reloading
+2024-05-02 10:06:44,522 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:06:44] "[35m[1mPOST /spell HTTP/1.1[0m" 500 -
+2024-05-02 10:06:44,537 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:06:44] "[36mGET /spell?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-02 10:06:44,538 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:06:44] "[36mGET /spell?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-02 10:06:44,549 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:06:44] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-02 10:06:46,617 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-02 10:06:57,129 :: root         : INFO     Configured the logging successfully
+2024-05-02 10:06:57,139 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-02 10:06:57,153 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-02 10:22:00,389 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:22:00] "GET / HTTP/1.1" 200 -
+2024-05-02 10:22:08,700 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\encodings\\cp1252.py', reloading
+2024-05-02 10:22:08,709 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:22:08] "[35m[1mPOST /spell HTTP/1.1[0m" 500 -
+2024-05-02 10:22:08,734 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:22:08] "[36mGET /spell?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-02 10:22:08,737 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:22:08] "[36mGET /spell?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-02 10:22:08,763 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:22:08] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-02 10:22:10,787 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-02 10:22:22,314 :: root         : INFO     Configured the logging successfully
+2024-05-02 10:22:22,327 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-02 10:22:22,341 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-02 10:23:17,311 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-02 10:23:19,427 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-02 10:23:27,109 :: root         : INFO     Configured the logging successfully
+2024-05-02 10:23:27,118 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-02 10:23:27,129 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-02 10:23:34,388 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:23:34] "[35m[1mPOST /spell HTTP/1.1[0m" 500 -
+2024-05-02 10:23:34,400 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:23:34] "[36mGET /spell?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-02 10:23:34,404 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:23:34] "[36mGET /spell?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-02 10:23:34,426 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:23:34] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-02 10:24:04,687 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-02 10:24:04,731 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-02 10:24:06,805 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-02 10:24:14,172 :: root         : INFO     Configured the logging successfully
+2024-05-02 10:24:14,181 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-02 10:24:14,191 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-02 10:24:14,227 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:24:14] "GET / HTTP/1.1" 200 -
+2024-05-02 10:24:30,724 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:24:30] "POST /spell HTTP/1.1" 200 -
+2024-05-02 10:25:21,740 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:25:21] "GET / HTTP/1.1" 200 -
+2024-05-02 10:25:40,680 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:25:40] "POST /spell HTTP/1.1" 200 -
+2024-05-02 10:25:49,134 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:25:49] "POST /spell HTTP/1.1" 200 -
+2024-05-02 10:26:23,594 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:26:23] "GET / HTTP/1.1" 200 -
+2024-05-02 10:26:34,136 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:26:34] "POST /spell HTTP/1.1" 200 -
+2024-05-02 10:27:00,530 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:27:00] "POST /spell HTTP/1.1" 200 -
+2024-05-02 10:27:16,225 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:27:16] "GET / HTTP/1.1" 200 -
+2024-05-02 10:27:22,474 :: werkzeug     : INFO     127.0.0.1 - - [02/May/2024 10:27:22] "POST /spell HTTP/1.1" 200 -
+2024-05-02 23:13:01,716 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-02 23:13:01,973 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\bert\\bert_model.py', reloading
+2024-05-02 23:13:02,149 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\transformers\\__init__.py', reloading
+2024-05-02 23:13:02,257 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\transformers\\modeling_distilbert.py', reloading
+2024-05-02 23:13:02,321 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\transformers\\modeling_utils.py', reloading
+2024-05-02 23:13:02,385 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\torch\\__init__.py', reloading
+2024-05-02 23:13:06,149 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-02 23:13:26,674 :: root         : INFO     Configured the logging successfully
+2024-05-02 23:13:26,698 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-02 23:13:26,720 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-02 23:19:53,513 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Scripts\\conda-script.py', reloading
+2024-05-02 23:19:57,037 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-02 23:20:11,373 :: root         : INFO     Configured the logging successfully
+2024-05-02 23:20:11,390 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-02 23:20:11,404 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-02 23:31:39,990 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\cwp.py', reloading
+2024-05-02 23:31:40,199 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Scripts\\jupyter-notebook-script.py', reloading
+2024-05-02 23:31:41,924 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-02 23:31:55,074 :: root         : INFO     Configured the logging successfully
+2024-05-02 23:31:55,093 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-02 23:31:55,111 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-02 23:32:13,092 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\IPython\\core\\interactiveshell.py', reloading
+2024-05-02 23:32:15,718 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-02 23:32:30,642 :: root         : INFO     Configured the logging successfully
+2024-05-02 23:32:30,659 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-02 23:32:30,687 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-03 09:04:10,621 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\_pytest\\fixtures.py', reloading
+2024-05-03 09:04:13,797 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-03 09:04:30,918 :: root         : INFO     Configured the logging successfully
+2024-05-03 09:04:30,933 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-03 09:04:30,947 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-03 23:06:22,569 :: werkzeug     : INFO     127.0.0.1 - - [03/May/2024 23:06:22] "POST /spell HTTP/1.1" 200 -
+2024-05-03 23:08:02,713 :: werkzeug     : INFO     127.0.0.1 - - [03/May/2024 23:08:02] "POST /spell HTTP/1.1" 200 -
+2024-05-03 23:09:54,408 :: werkzeug     : INFO     127.0.0.1 - - [03/May/2024 23:09:54] "POST /spell HTTP/1.1" 200 -
+2024-05-03 23:10:01,539 :: werkzeug     : INFO     127.0.0.1 - - [03/May/2024 23:10:01] "GET / HTTP/1.1" 200 -
+2024-05-03 23:10:10,382 :: werkzeug     : INFO     127.0.0.1 - - [03/May/2024 23:10:10] "POST /spell HTTP/1.1" 200 -
+2024-05-03 23:10:38,519 :: werkzeug     : INFO     127.0.0.1 - - [03/May/2024 23:10:38] "POST /spell HTTP/1.1" 200 -
+2024-05-04 10:54:08,083 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\cwp.py', reloading
+2024-05-04 10:54:08,276 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Scripts\\jupyter-notebook-script.py', reloading
+2024-05-04 10:54:12,867 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-04 10:54:28,626 :: root         : INFO     Configured the logging successfully
+2024-05-04 10:54:28,642 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-04 10:54:28,655 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-04 14:48:15,680 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 14:48:15] "GET / HTTP/1.1" 200 -
+2024-05-04 14:51:48,955 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 14:51:48] "POST /spell HTTP/1.1" 200 -
+2024-05-04 14:54:44,143 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 14:54:44] "GET / HTTP/1.1" 200 -
+2024-05-04 14:58:00,390 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 14:58:00] "POST /spell HTTP/1.1" 200 -
+2024-05-04 14:58:33,982 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 14:58:33] "GET / HTTP/1.1" 200 -
+2024-05-04 14:58:46,605 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 14:58:46] "POST /spell HTTP/1.1" 200 -
+2024-05-04 15:00:15,151 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:00:15] "GET / HTTP/1.1" 200 -
+2024-05-04 15:00:20,915 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:00:20] "POST /spell HTTP/1.1" 200 -
+2024-05-04 15:00:59,008 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:00:59] "POST /spell HTTP/1.1" 200 -
+2024-05-04 15:02:23,238 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+2024-05-04 15:02:23,259 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:02:23] "[35m[1mPOST /spell HTTP/1.1[0m" 500 -
+2024-05-04 15:02:23,283 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:02:23] "[36mGET /spell?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-04 15:02:23,284 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:02:23] "[36mGET /spell?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-04 15:02:23,323 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:02:23] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-04 15:02:26,276 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-04 15:02:39,608 :: root         : INFO     Configured the logging successfully
+2024-05-04 15:02:39,621 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-04 15:02:39,631 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-04 15:04:12,059 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:04:12] "GET / HTTP/1.1" 200 -
+2024-05-04 15:05:01,489 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:05:01] "POST /grammar HTTP/1.1" 200 -
+2024-05-04 15:08:14,944 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:08:14] "[35m[1mPOST /spell HTTP/1.1[0m" 500 -
+2024-05-04 15:08:14,957 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:08:14] "[36mGET /spell?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-04 15:08:14,957 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:08:14] "[36mGET /spell?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-04 15:08:14,988 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:08:14] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-04 15:10:01,262 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\ntpath.py', reloading
+2024-05-04 15:10:03,440 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-04 15:10:14,351 :: root         : INFO     Configured the logging successfully
+2024-05-04 15:10:14,363 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-04 15:10:14,372 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-04 15:11:57,628 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-04 15:12:00,887 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-04 15:12:12,944 :: root         : INFO     Configured the logging successfully
+2024-05-04 15:12:12,955 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-04 15:12:12,973 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-04 15:13:35,113 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-04 15:13:35,116 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-04 15:13:37,204 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-04 15:13:50,593 :: root         : INFO     Configured the logging successfully
+2024-05-04 15:13:50,608 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-04 15:13:50,620 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-04 15:13:50,668 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:13:50] "GET / HTTP/1.1" 200 -
+2024-05-04 15:14:15,017 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:14:15] "[35m[1mPOST /spell HTTP/1.1[0m" 500 -
+2024-05-04 15:14:15,033 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:14:15] "[36mGET /spell?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-04 15:14:15,035 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:14:15] "[36mGET /spell?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-04 15:14:15,075 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:14:15] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-04 15:15:25,628 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-04 15:15:25,633 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-04 15:15:25,634 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-04 15:15:27,619 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-04 15:15:35,009 :: root         : INFO     Configured the logging successfully
+2024-05-04 15:15:35,019 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-04 15:15:35,030 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-04 15:15:52,751 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:15:52] "GET / HTTP/1.1" 200 -
+2024-05-04 15:15:56,408 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:15:56] "[35m[1mPOST /spell HTTP/1.1[0m" 500 -
+2024-05-04 15:15:56,422 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:15:56] "[36mGET /spell?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-04 15:15:56,428 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:15:56] "[36mGET /spell?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-04 15:15:56,456 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:15:56] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-04 15:16:13,353 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:16:13] "POST /spell HTTP/1.1" 200 -
+2024-05-04 15:17:52,912 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:17:52] "GET / HTTP/1.1" 200 -
+2024-05-04 15:17:58,290 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:17:58] "[35m[1mPOST /spell HTTP/1.1[0m" 500 -
+2024-05-04 15:17:58,305 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:17:58] "[36mGET /spell?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-04 15:17:58,307 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:17:58] "[36mGET /spell?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-04 15:17:58,340 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:17:58] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-04 15:19:14,970 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:19:14] "GET / HTTP/1.1" 200 -
+2024-05-04 15:19:24,942 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:19:24] "[35m[1mPOST /spell HTTP/1.1[0m" 500 -
+2024-05-04 15:19:24,971 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:19:24] "[36mGET /spell?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-04 15:19:24,978 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:19:24] "[36mGET /spell?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-04 15:19:24,990 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:19:24] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-04 15:20:08,488 :: root         : INFO     BERT has been loaded successfully
+2024-05-04 15:20:08,837 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-04 15:20:08,877 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-04 15:20:08,877 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-04 15:20:12,630 :: root         : INFO     Time taken:3 seconds
+2024-05-04 15:20:12,745 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:20:12] "POST /error-detect HTTP/1.1" 200 -
+2024-05-04 15:21:29,057 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:21:29] "GET / HTTP/1.1" 200 -
+2024-05-04 15:21:41,484 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:21:41] "POST /grammar HTTP/1.1" 200 -
+2024-05-04 15:21:51,632 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:21:51] "[35m[1mPOST /spell HTTP/1.1[0m" 500 -
+2024-05-04 15:21:51,660 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:21:51] "[36mGET /spell?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-04 15:21:51,666 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:21:51] "[36mGET /spell?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-04 15:21:51,684 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:21:51] "[36mGET /spell?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-04 15:24:52,749 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:24:52] "GET / HTTP/1.1" 200 -
+2024-05-04 15:25:29,699 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:25:29] "GET / HTTP/1.1" 200 -
+2024-05-04 15:25:50,445 :: root         : INFO     BERT has been loaded successfully
+2024-05-04 15:25:50,446 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-04 15:25:50,447 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-04 15:25:50,447 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-04 15:25:52,115 :: root         : INFO     Time taken:1 seconds
+2024-05-04 15:25:52,154 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:25:52] "POST /error-detect HTTP/1.1" 200 -
+2024-05-04 15:26:00,140 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:26:00] "POST /grammar HTTP/1.1" 200 -
+2024-05-04 15:26:06,824 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:26:06] "POST /spell HTTP/1.1" 200 -
+2024-05-04 15:28:15,134 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\stemmer.py', reloading
+2024-05-04 15:28:15,148 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\stemmer.py', reloading
+2024-05-04 15:28:15,455 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\stemmer.py', reloading
+2024-05-04 15:28:19,102 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-04 15:28:34,071 :: root         : INFO     Configured the logging successfully
+2024-05-04 15:28:34,084 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-04 15:28:34,097 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-04 15:36:25,978 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\stemmer.py', reloading
+2024-05-04 15:36:28,004 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-04 15:36:35,758 :: root         : INFO     Configured the logging successfully
+2024-05-04 15:36:35,767 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-04 15:36:35,776 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-04 15:41:15,198 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\stemmer.py', reloading
+2024-05-04 15:41:17,169 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-04 15:41:24,838 :: root         : INFO     Configured the logging successfully
+2024-05-04 15:41:24,849 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-04 15:41:24,858 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-04 15:43:57,531 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\io.py', reloading
+2024-05-04 15:43:57,547 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\typing.py', reloading
+2024-05-04 15:43:59,546 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-04 15:44:07,373 :: root         : INFO     Configured the logging successfully
+2024-05-04 15:44:07,384 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-04 15:44:07,396 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-04 15:47:16,636 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-04 15:47:16,639 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-04 15:47:18,614 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-04 15:47:26,460 :: root         : INFO     Configured the logging successfully
+2024-05-04 15:47:26,468 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-04 15:47:26,488 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-04 15:47:26,530 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:47:26] "GET / HTTP/1.1" 200 -
+2024-05-04 15:47:40,268 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:47:40] "[35m[1mPOST /error-detect HTTP/1.1[0m" 500 -
+2024-05-04 15:47:40,285 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:47:40] "GET /error-detect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-04 15:47:40,293 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:47:40] "GET /error-detect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-04 15:47:40,328 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:47:40] "GET /error-detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-04 15:47:40,340 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:47:40] "[36mGET /error-detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-04 15:48:22,811 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-04 15:48:22,823 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-04 15:48:24,918 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-04 15:48:32,766 :: root         : INFO     Configured the logging successfully
+2024-05-04 15:48:32,778 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-04 15:48:32,787 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-04 15:48:32,825 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:48:32] "GET / HTTP/1.1" 200 -
+2024-05-04 15:48:44,447 :: root         : INFO     BERT has been loaded successfully
+2024-05-04 15:48:44,459 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-04 15:48:44,462 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-04 15:48:44,462 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-04 15:48:46,148 :: root         : INFO     Time taken:1 seconds
+2024-05-04 15:48:46,227 :: werkzeug     : INFO     127.0.0.1 - - [04/May/2024 15:48:46] "POST /error-detect HTTP/1.1" 200 -
+2024-05-08 09:12:44,144 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\spell.py', reloading
+2024-05-08 09:12:48,866 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-08 09:13:14,401 :: root         : INFO     Configured the logging successfully
+2024-05-08 09:13:14,434 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-08 09:13:14,470 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-08 09:13:59,247 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\stemmer.py', reloading
+2024-05-08 09:13:59,248 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\stemmer.py', reloading
+2024-05-08 09:14:01,901 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-08 09:14:23,004 :: root         : INFO     Configured the logging successfully
+2024-05-08 09:14:23,031 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-08 09:14:23,054 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-11 11:48:52,084 :: root         : INFO     Configured the logging successfully
+2024-05-11 11:48:52,116 :: werkzeug     : INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-11 11:48:52,117 :: werkzeug     : INFO     [33mPress CTRL+C to quit[0m
+2024-05-11 11:48:52,137 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-11 11:48:59,489 :: root         : INFO     Configured the logging successfully
+2024-05-11 11:48:59,498 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-11 11:48:59,516 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-11 11:49:28,533 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 11:49:28] "GET / HTTP/1.1" 200 -
+2024-05-11 11:49:28,891 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 11:49:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-11 11:49:44,110 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+2024-05-11 11:49:44,114 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\stemmer.py', reloading
+2024-05-11 11:49:44,146 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 11:49:44] "[35m[1mPOST /error-detect HTTP/1.1[0m" 500 -
+2024-05-11 11:49:44,168 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 11:49:44] "[36mGET /error-detect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-11 11:49:44,177 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 11:49:44] "[36mGET /error-detect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-11 11:49:44,187 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 11:49:44] "[36mGET /error-detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-11 11:49:44,240 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 11:49:44] "[36mGET /error-detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-11 11:49:46,302 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-11 11:49:57,687 :: root         : INFO     Configured the logging successfully
+2024-05-11 11:49:57,705 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-11 11:49:57,735 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-11 11:55:00,515 :: root         : INFO     Configured the logging successfully
+2024-05-11 11:55:00,542 :: werkzeug     : INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-11 11:55:00,543 :: werkzeug     : INFO     [33mPress CTRL+C to quit[0m
+2024-05-11 11:55:00,561 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-11 11:55:07,975 :: root         : INFO     Configured the logging successfully
+2024-05-11 11:55:07,985 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-11 11:55:07,994 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-11 11:55:16,507 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 11:55:16] "GET / HTTP/1.1" 200 -
+2024-05-11 11:55:28,728 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 11:55:28] "[35m[1mPOST /error-detect HTTP/1.1[0m" 500 -
+2024-05-11 11:55:28,744 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 11:55:28] "[36mGET /error-detect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-11 11:55:28,758 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 11:55:28] "[36mGET /error-detect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-11 11:55:28,771 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 11:55:28] "[36mGET /error-detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-11 11:55:28,813 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 11:55:28] "[36mGET /error-detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-11 11:55:53,549 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 11:55:53] "POST /error-detect HTTP/1.1" 200 -
+2024-05-11 12:03:04,124 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Scripts\\conda-script.py', reloading
+2024-05-11 12:03:07,738 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-11 12:03:18,889 :: root         : INFO     Configured the logging successfully
+2024-05-11 12:03:18,902 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-11 12:03:18,910 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-11 12:03:23,113 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\hunspell\\__init__.py', reloading
+2024-05-11 12:03:25,235 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-11 12:03:33,256 :: root         : INFO     Configured the logging successfully
+2024-05-11 12:03:33,266 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-11 12:03:33,274 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-11 12:06:42,830 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\spell.py', reloading
+2024-05-11 12:06:42,832 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\spell.py', reloading
+2024-05-11 12:06:45,334 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-11 12:08:20,531 :: root         : INFO     Configured the logging successfully
+2024-05-11 12:08:20,570 :: werkzeug     : INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-11 12:08:20,570 :: werkzeug     : INFO     [33mPress CTRL+C to quit[0m
+2024-05-11 12:08:20,587 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-11 12:08:28,181 :: root         : INFO     Configured the logging successfully
+2024-05-11 12:08:28,191 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-11 12:08:28,204 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-11 12:08:50,725 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:08:50] "GET / HTTP/1.1" 200 -
+2024-05-11 12:09:06,888 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:09:06] "POST /spell HTTP/1.1" 200 -
+2024-05-11 12:09:16,134 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:09:16] "GET / HTTP/1.1" 200 -
+2024-05-11 12:09:51,655 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:09:51] "POST /spell HTTP/1.1" 200 -
+2024-05-11 12:10:15,180 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:10:15] "GET / HTTP/1.1" 200 -
+2024-05-11 12:10:16,879 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:10:16] "GET / HTTP/1.1" 200 -
+2024-05-11 12:10:42,333 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:10:42] "POST /spell HTTP/1.1" 200 -
+2024-05-11 12:13:41,989 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\typing.py', reloading
+2024-05-11 12:13:44,137 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-11 12:13:56,631 :: root         : INFO     Configured the logging successfully
+2024-05-11 12:13:56,645 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-11 12:13:56,655 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-11 12:14:45,758 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\stemmer.py', reloading
+2024-05-11 12:14:45,766 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\stemmer.py', reloading
+2024-05-11 12:14:47,755 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-11 12:14:55,689 :: root         : INFO     Configured the logging successfully
+2024-05-11 12:14:55,699 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-11 12:14:55,707 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-11 12:14:57,598 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\stemmer.py', reloading
+2024-05-11 12:14:57,601 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\stemmer.py', reloading
+2024-05-11 12:14:57,603 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\stemmer.py', reloading
+2024-05-11 12:14:59,779 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-11 12:15:07,341 :: root         : INFO     Configured the logging successfully
+2024-05-11 12:15:07,358 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-11 12:15:07,374 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-11 12:15:11,955 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-11 12:15:11,974 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-11 12:15:11,982 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-11 12:15:11,983 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-11 12:15:14,112 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-11 12:15:21,826 :: root         : INFO     Configured the logging successfully
+2024-05-11 12:15:21,836 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-11 12:15:21,844 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-11 12:15:21,889 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:15:21] "GET / HTTP/1.1" 200 -
+2024-05-11 12:15:41,264 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:15:41] "[35m[1mPOST /error-detect HTTP/1.1[0m" 500 -
+2024-05-11 12:15:41,295 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:15:41] "[36mGET /error-detect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-11 12:15:41,299 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:15:41] "[36mGET /error-detect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-11 12:15:41,317 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:15:41] "[36mGET /error-detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-11 12:15:41,360 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:15:41] "[36mGET /error-detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-11 12:25:44,101 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-11 12:25:44,102 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-11 12:25:44,103 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-11 12:25:46,180 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-11 12:25:53,498 :: root         : INFO     Configured the logging successfully
+2024-05-11 12:25:53,507 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-11 12:25:53,516 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-11 12:27:06,734 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:27:06] "GET / HTTP/1.1" 200 -
+2024-05-11 12:27:27,786 :: root         : INFO     BERT has been loaded successfully
+2024-05-11 12:27:27,827 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-11 12:27:27,829 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-11 12:27:27,830 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-11 12:27:29,511 :: root         : INFO     Time taken:1 seconds
+2024-05-11 12:27:29,620 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:27:29] "POST /error-detect HTTP/1.1" 200 -
+2024-05-11 12:27:49,953 :: root         : INFO     BERT has been loaded successfully
+2024-05-11 12:27:49,954 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-11 12:27:49,955 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-11 12:27:49,955 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-11 12:27:51,572 :: root         : INFO     Time taken:1 seconds
+2024-05-11 12:27:51,636 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:27:51] "POST /error-detect HTTP/1.1" 200 -
+2024-05-11 12:28:07,682 :: root         : INFO     BERT has been loaded successfully
+2024-05-11 12:28:07,684 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-11 12:28:07,684 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-11 12:28:07,684 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-11 12:28:09,257 :: root         : INFO     Time taken:1 seconds
+2024-05-11 12:28:09,306 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:28:09] "POST /error-detect HTTP/1.1" 200 -
+2024-05-11 12:28:45,938 :: root         : INFO     BERT has been loaded successfully
+2024-05-11 12:28:45,940 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-11 12:28:45,940 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-11 12:28:45,941 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-11 12:28:47,552 :: root         : INFO     Time taken:1 seconds
+2024-05-11 12:28:47,588 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:28:47] "POST /error-detect HTTP/1.1" 200 -
+2024-05-11 12:30:10,691 :: root         : INFO     BERT has been loaded successfully
+2024-05-11 12:30:10,692 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-11 12:30:10,692 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-11 12:30:10,693 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-11 12:30:12,271 :: root         : INFO     Time taken:1 seconds
+2024-05-11 12:30:12,318 :: werkzeug     : INFO     127.0.0.1 - - [11/May/2024 12:30:12] "POST /error-detect HTTP/1.1" 200 -
+2024-05-16 20:31:35,211 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\cwp.py', reloading
+2024-05-16 20:31:38,751 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-17 10:34:27,666 :: root         : INFO     Configured the logging successfully
+2024-05-17 10:34:27,682 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-17 10:34:27,692 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-18 06:53:37,800 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 06:53:37] "GET / HTTP/1.1" 200 -
+2024-05-18 06:53:53,700 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 06:53:53,849 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 06:53:53,857 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 06:53:53,857 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 06:53:55,561 :: root         : INFO     Time taken:1 seconds
+2024-05-18 06:53:55,651 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 06:53:55] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 06:54:08,300 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 06:54:08,310 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 06:54:08,316 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 06:54:08,320 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 06:54:10,044 :: root         : INFO     Time taken:1 seconds
+2024-05-18 06:54:10,087 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 06:54:10] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 06:54:22,671 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 06:54:22,674 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 06:54:22,674 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 06:54:22,674 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 06:54:24,272 :: root         : INFO     Time taken:1 seconds
+2024-05-18 06:54:24,319 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 06:54:24] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 06:54:35,173 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 06:54:35,175 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 06:54:35,176 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 06:54:35,176 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 06:54:36,751 :: root         : INFO     Time taken:1 seconds
+2024-05-18 06:54:36,792 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 06:54:36] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 06:54:50,972 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 06:54:50,974 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 06:54:50,974 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 06:54:50,974 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 06:54:52,549 :: root         : INFO     Time taken:1 seconds
+2024-05-18 06:54:52,589 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 06:54:52] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 06:55:04,691 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 06:55:04,693 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 06:55:04,693 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 06:55:04,693 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 06:55:06,273 :: root         : INFO     Time taken:1 seconds
+2024-05-18 06:55:06,305 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 06:55:06] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 06:55:38,800 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 06:55:38] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 06:55:45,429 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 06:55:45] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 06:56:00,427 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 06:56:00] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 06:56:43,633 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 06:56:43] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 06:57:01,054 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 06:57:01] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 07:56:32,827 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\re.py', reloading
+2024-05-18 07:56:36,801 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-18 07:56:52,616 :: root         : INFO     Configured the logging successfully
+2024-05-18 07:56:52,633 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-18 07:56:52,645 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-18 07:57:49,629 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-18 07:57:49,630 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-18 07:57:49,631 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-18 07:57:49,632 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-18 07:57:51,621 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-18 07:57:58,871 :: root         : INFO     Configured the logging successfully
+2024-05-18 07:57:58,880 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-18 07:57:58,890 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-18 07:57:58,925 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 07:57:58] "GET / HTTP/1.1" 200 -
+2024-05-18 07:58:18,202 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 07:58:18,271 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 07:58:18,273 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 07:58:18,274 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 07:58:19,923 :: root         : INFO     Time taken:1 seconds
+2024-05-18 07:58:20,034 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 07:58:20] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 07:58:36,984 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 07:58:36,985 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 07:58:36,986 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 07:58:36,986 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 07:58:38,552 :: root         : INFO     Time taken:1 seconds
+2024-05-18 07:58:38,604 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 07:58:38] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 07:58:52,993 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 07:58:52,995 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 07:58:52,996 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 07:58:52,996 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 07:58:54,590 :: root         : INFO     Time taken:1 seconds
+2024-05-18 07:58:54,635 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 07:58:54] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 07:59:14,910 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 07:59:14,912 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 07:59:14,913 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 07:59:14,913 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 07:59:17,516 :: root         : INFO     Time taken:2 seconds
+2024-05-18 07:59:17,568 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 07:59:17] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:02:07,074 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 08:02:07,075 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 08:02:07,076 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 08:02:07,076 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 08:02:09,648 :: root         : INFO     Time taken:2 seconds
+2024-05-18 08:02:09,722 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:02:09] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:02:29,784 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 08:02:29,786 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 08:02:29,786 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 08:02:29,786 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 08:02:32,357 :: root         : INFO     Time taken:2 seconds
+2024-05-18 08:02:32,414 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:02:32] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:02:46,771 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 08:02:46,773 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 08:02:46,774 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 08:02:46,774 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 08:02:49,341 :: root         : INFO     Time taken:2 seconds
+2024-05-18 08:02:49,392 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:02:49] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:03:32,899 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 08:03:32,901 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 08:03:32,901 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 08:03:32,902 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 08:03:35,452 :: root         : INFO     Time taken:2 seconds
+2024-05-18 08:03:35,505 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:03:35] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:03:54,449 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 08:03:54,451 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 08:03:54,452 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 08:03:54,453 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 08:03:57,011 :: root         : INFO     Time taken:2 seconds
+2024-05-18 08:03:57,066 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:03:57] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:04:23,848 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 08:04:23,850 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 08:04:23,852 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 08:04:23,852 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 08:04:26,400 :: root         : INFO     Time taken:2 seconds
+2024-05-18 08:04:26,460 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:04:26] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:04:37,861 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 08:04:37,863 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 08:04:37,863 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 08:04:37,864 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 08:04:40,525 :: root         : INFO     Time taken:2 seconds
+2024-05-18 08:04:40,575 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:04:40] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:06:06,993 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\flask\\__init__.py', reloading
+2024-05-18 08:06:07,014 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+2024-05-18 08:06:07,752 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\flask\\helpers.py', reloading
+2024-05-18 08:06:07,819 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2024-05-18 08:06:07,826 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2024-05-18 08:06:07,833 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2024-05-18 08:06:12,603 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-18 08:06:30,142 :: root         : INFO     Configured the logging successfully
+2024-05-18 08:06:30,159 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-18 08:06:30,182 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-18 08:06:30,269 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\error_correction_model.py', reloading
+2024-05-18 08:06:30,285 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:06:30] "[35m[1mPOST /grammar HTTP/1.1[0m" 500 -
+2024-05-18 08:06:30,306 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:06:30] "GET /grammar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-18 08:06:30,310 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:06:30] "GET /grammar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-18 08:06:30,400 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:06:30] "GET /grammar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-18 08:06:30,426 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:06:30] "[36mGET /grammar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-18 08:06:32,895 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-18 08:06:42,551 :: root         : INFO     Configured the logging successfully
+2024-05-18 08:06:42,561 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-18 08:06:42,572 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-18 08:06:47,838 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:06:47] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:06:57,002 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:06:57] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:08:26,004 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:08:26] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:08:52,698 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:08:52] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:09:09,321 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:09:09] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:10:11,747 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:10:11] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:10:19,065 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:10:19] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:10:32,405 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 08:10:32,406 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 08:10:32,406 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 08:10:32,406 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 08:10:33,978 :: root         : INFO     Time taken:1 seconds
+2024-05-18 08:10:34,017 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:10:34] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:10:47,053 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 08:10:47,055 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 08:10:47,055 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 08:10:47,055 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 08:10:48,646 :: root         : INFO     Time taken:1 seconds
+2024-05-18 08:10:48,685 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:10:48] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:12:08,210 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:12:08] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:12:38,469 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:12:38] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:14:49,675 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:14:49] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:15:01,916 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:15:01] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:15:24,391 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:15:24] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:15:54,855 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:15:54] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:30:09,087 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-18 08:30:09,088 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-18 08:30:11,178 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-18 08:30:21,400 :: root         : INFO     Configured the logging successfully
+2024-05-18 08:30:21,411 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-18 08:30:21,420 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-18 08:30:21,464 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:30:21] "GET / HTTP/1.1" 200 -
+2024-05-18 08:30:36,117 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 08:30:36,121 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 08:30:36,122 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 08:30:36,122 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 08:30:37,783 :: root         : INFO     Time taken:1 seconds
+2024-05-18 08:30:37,904 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:30:37] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:30:54,515 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 08:30:54,517 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 08:30:54,517 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 08:30:54,517 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 08:30:56,117 :: root         : INFO     Time taken:1 seconds
+2024-05-18 08:30:56,158 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:30:56] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:31:09,536 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 08:31:09,539 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 08:31:09,539 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 08:31:09,539 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 08:31:11,121 :: root         : INFO     Time taken:1 seconds
+2024-05-18 08:31:11,164 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:31:11] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:32:02,258 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-18 08:32:04,592 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-18 08:32:14,496 :: root         : INFO     Configured the logging successfully
+2024-05-18 08:32:14,509 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-18 08:32:14,519 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-18 08:32:14,561 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:32:14] "GET / HTTP/1.1" 200 -
+2024-05-18 08:32:40,497 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 08:32:40,499 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 08:32:40,499 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 08:32:40,500 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 08:32:42,094 :: root         : INFO     Time taken:1 seconds
+2024-05-18 08:32:42,136 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:32:42] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:32:57,446 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 08:32:57,447 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 08:32:57,447 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 08:32:57,448 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 08:32:59,064 :: root         : INFO     Time taken:1 seconds
+2024-05-18 08:32:59,101 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:32:59] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:33:54,868 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-18 08:33:54,869 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-18 08:33:57,059 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-18 08:34:06,865 :: root         : INFO     Configured the logging successfully
+2024-05-18 08:34:06,876 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-18 08:34:06,887 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-18 08:34:06,928 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:34:06] "GET / HTTP/1.1" 200 -
+2024-05-18 08:34:23,768 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 08:34:23,769 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 08:34:23,769 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 08:34:23,769 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 08:34:25,347 :: root         : INFO     Time taken:1 seconds
+2024-05-18 08:34:25,392 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:34:25] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:34:42,269 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-18 08:34:42,270 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-18 08:34:44,215 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-18 08:34:51,606 :: root         : INFO     Configured the logging successfully
+2024-05-18 08:34:51,615 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-18 08:34:51,624 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-18 08:34:57,275 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-18 08:34:57,276 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-18 08:34:57,277 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-18 08:34:59,337 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-18 08:35:06,466 :: root         : INFO     Configured the logging successfully
+2024-05-18 08:35:06,474 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-18 08:35:06,485 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-18 08:35:06,519 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:35:06] "GET / HTTP/1.1" 200 -
+2024-05-18 08:35:23,816 :: root         : INFO     BERT has been loaded successfully
+2024-05-18 08:35:23,817 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-18 08:35:23,819 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-18 08:35:23,819 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-18 08:35:25,395 :: root         : INFO     Time taken:1 seconds
+2024-05-18 08:35:25,436 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:35:25] "POST /error-detect HTTP/1.1" 200 -
+2024-05-18 08:35:40,117 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-18 08:35:40,117 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\detection.py', reloading
+2024-05-18 08:35:42,192 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-18 08:35:49,189 :: root         : INFO     Configured the logging successfully
+2024-05-18 08:35:49,199 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-18 08:35:49,208 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-18 08:42:05,968 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:42:05] "[35m[1mPOST /grammar HTTP/1.1[0m" 500 -
+2024-05-18 08:42:05,985 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:42:05] "[36mGET /grammar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-18 08:42:05,985 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:42:05] "[36mGET /grammar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-18 08:42:06,025 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:42:06] "[36mGET /grammar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-18 08:42:06,039 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:42:06] "[36mGET /grammar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-18 08:42:36,447 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:42:36] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:42:54,618 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:42:54] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:43:15,575 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:43:15] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:43:34,606 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:43:34] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:45:24,844 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\error_correction_model.py', reloading
+2024-05-18 08:45:24,845 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\error_correction_model.py', reloading
+2024-05-18 08:45:26,780 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-18 08:45:34,025 :: root         : INFO     Configured the logging successfully
+2024-05-18 08:45:34,032 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-18 08:45:34,042 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-18 08:45:34,077 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:45:34] "GET / HTTP/1.1" 200 -
+2024-05-18 08:45:49,072 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:45:49] "[35m[1mPOST /grammar HTTP/1.1[0m" 500 -
+2024-05-18 08:45:49,084 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:45:49] "[36mGET /grammar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-18 08:45:49,088 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:45:49] "[36mGET /grammar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-18 08:45:49,114 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:45:49] "[36mGET /grammar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-18 08:45:49,128 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:45:49] "[36mGET /grammar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-18 08:46:56,813 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:46:56] "[35m[1mPOST /grammar HTTP/1.1[0m" 500 -
+2024-05-18 08:46:56,825 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:46:56] "[36mGET /grammar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-18 08:46:56,829 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:46:56] "[36mGET /grammar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-18 08:46:56,855 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:46:56] "[36mGET /grammar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-18 08:48:09,228 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:48:09] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:48:28,197 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:48:28] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:48:41,334 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:48:41] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:48:55,226 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:48:55] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:49:08,826 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:49:08] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:49:25,316 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:49:25] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:49:40,514 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:49:40] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 08:49:58,998 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 08:49:58] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 09:04:57,725 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 09:04:57] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 09:05:22,218 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 09:05:22] "POST /grammar HTTP/1.1" 200 -
+2024-05-18 10:10:45,076 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 10:10:45] "POST /spell HTTP/1.1" 200 -
+2024-05-18 10:11:49,889 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 10:11:49] "[36mGET /error-detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-18 10:11:57,109 :: werkzeug     : INFO     127.0.0.1 - - [18/May/2024 10:11:57] "GET / HTTP/1.1" 200 -
+2024-05-22 10:30:24,360 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\testing.py', reloading
+2024-05-22 10:30:24,362 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\stemmer.py', reloading
+2024-05-22 10:30:26,745 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-22 10:30:40,060 :: root         : INFO     Configured the logging successfully
+2024-05-22 10:30:40,074 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-22 10:30:40,087 :: werkzeug     : INFO      * Debugger PIN: 679-475-264
+2024-05-24 09:49:06,938 :: werkzeug     : INFO     127.0.0.1 - - [24/May/2024 09:49:06] "GET / HTTP/1.1" 200 -
+2024-05-24 09:51:39,299 :: werkzeug     : INFO     127.0.0.1 - - [24/May/2024 09:51:39] "GET / HTTP/1.1" 200 -
+2024-05-24 09:52:26,710 :: werkzeug     : INFO     127.0.0.1 - - [24/May/2024 09:52:26] "GET / HTTP/1.1" 200 -
+2024-05-24 10:07:59,413 :: root         : INFO     Configured the logging successfully
+2024-05-24 10:07:59,455 :: werkzeug     : INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 10:07:59,456 :: werkzeug     : INFO     [33mPress CTRL+C to quit[0m
+2024-05-24 10:07:59,487 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-24 10:08:08,614 :: root         : INFO     Configured the logging successfully
+2024-05-24 10:08:08,623 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-24 10:08:08,637 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-24 10:08:16,522 :: werkzeug     : INFO     127.0.0.1 - - [24/May/2024 10:08:16] "GET / HTTP/1.1" 200 -
+2024-05-24 10:08:16,526 :: werkzeug     : INFO     127.0.0.1 - - [24/May/2024 10:08:16] "GET / HTTP/1.1" 200 -
+2024-05-24 10:08:17,125 :: werkzeug     : INFO     127.0.0.1 - - [24/May/2024 10:08:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-24 10:08:39,881 :: werkzeug     : INFO     127.0.0.1 - - [24/May/2024 10:08:39] "GET / HTTP/1.1" 200 -
+2024-05-24 10:15:59,588 :: werkzeug     : INFO     127.0.0.1 - - [24/May/2024 10:15:59] "GET / HTTP/1.1" 200 -
+2024-05-25 12:09:03,890 :: werkzeug     : INFO     127.0.0.1 - - [25/May/2024 12:09:03] "POST /spell HTTP/1.1" 200 -
+2024-05-25 12:10:15,925 :: werkzeug     : INFO     127.0.0.1 - - [25/May/2024 12:10:15] "POST /spell HTTP/1.1" 200 -
+2024-05-25 12:17:51,980 :: werkzeug     : INFO     127.0.0.1 - - [25/May/2024 12:17:51] "POST /spell HTTP/1.1" 200 -
+2024-05-26 09:06:09,683 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-26 09:06:16,122 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-26 09:06:40,984 :: root         : INFO     Configured the logging successfully
+2024-05-26 09:06:41,009 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-26 09:06:41,031 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-26 09:07:53,708 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-26 09:07:56,312 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-26 09:09:27,730 :: root         : INFO     Configured the logging successfully
+2024-05-26 09:09:27,798 :: werkzeug     : INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-26 09:09:27,799 :: werkzeug     : INFO     [33mPress CTRL+C to quit[0m
+2024-05-26 09:09:27,820 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-26 09:09:43,962 :: root         : INFO     Configured the logging successfully
+2024-05-26 09:09:43,987 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-26 09:09:44,012 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-26 09:09:44,103 :: werkzeug     : INFO     127.0.0.1 - - [26/May/2024 09:09:44] "GET / HTTP/1.1" 200 -
+2024-05-26 09:09:44,114 :: werkzeug     : INFO     127.0.0.1 - - [26/May/2024 09:09:44] "GET / HTTP/1.1" 200 -
+2024-05-26 09:10:12,029 :: werkzeug     : INFO     127.0.0.1 - - [26/May/2024 09:10:12] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-26 09:10:12,112 :: werkzeug     : INFO     127.0.0.1 - - [26/May/2024 09:10:12] "[35m[1mGET /lexicon HTTP/1.1[0m" 500 -
+2024-05-26 09:10:12,136 :: werkzeug     : INFO     127.0.0.1 - - [26/May/2024 09:10:12] "GET /lexicon?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-26 09:10:12,148 :: werkzeug     : INFO     127.0.0.1 - - [26/May/2024 09:10:12] "GET /lexicon?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-26 09:10:12,257 :: werkzeug     : INFO     127.0.0.1 - - [26/May/2024 09:10:12] "GET /lexicon?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-26 09:10:12,277 :: werkzeug     : INFO     127.0.0.1 - - [26/May/2024 09:10:12] "[36mGET /lexicon?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-26 09:10:36,701 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-26 09:10:36,705 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-26 09:10:39,208 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-26 09:10:54,938 :: root         : INFO     Configured the logging successfully
+2024-05-26 09:10:54,977 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-26 09:10:55,015 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-26 09:10:55,080 :: werkzeug     : INFO     127.0.0.1 - - [26/May/2024 09:10:55] "GET /lexicon HTTP/1.1" 200 -
+2024-05-26 09:10:55,094 :: werkzeug     : INFO     127.0.0.1 - - [26/May/2024 09:10:55] "GET / HTTP/1.1" 200 -
+2024-05-26 09:11:06,571 :: werkzeug     : INFO     127.0.0.1 - - [26/May/2024 09:11:06] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-26 09:11:06,578 :: werkzeug     : INFO     127.0.0.1 - - [26/May/2024 09:11:06] "GET /lexicon HTTP/1.1" 200 -
+2024-05-28 23:43:24,642 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-28 23:43:24,683 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-28 23:43:28,211 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-28 23:43:44,055 :: root         : INFO     Configured the logging successfully
+2024-05-28 23:43:44,070 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-28 23:43:44,082 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-28 23:43:44,137 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:43:44] "GET /lexicon HTTP/1.1" 200 -
+2024-05-28 23:44:06,880 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:44:06] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-28 23:44:06,884 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:44:06] "GET /lexicon HTTP/1.1" 200 -
+2024-05-28 23:44:18,130 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:44:18] "POST /grammar HTTP/1.1" 200 -
+2024-05-28 23:44:57,353 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:44:57] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-28 23:44:57,358 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:44:57] "GET /lexicon HTTP/1.1" 200 -
+2024-05-28 23:45:33,194 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-28 23:45:33,195 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-28 23:45:33,196 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-28 23:45:35,114 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-28 23:45:42,204 :: root         : INFO     Configured the logging successfully
+2024-05-28 23:45:42,214 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-28 23:45:42,222 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-28 23:45:45,410 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:45:45] "GET /lexicon HTTP/1.1" 200 -
+2024-05-28 23:45:47,225 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:45:47] "GET /lexicon HTTP/1.1" 200 -
+2024-05-28 23:45:57,860 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:45:57] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-28 23:45:57,865 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:45:57] "GET /lexicon HTTP/1.1" 200 -
+2024-05-28 23:46:08,158 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+2024-05-28 23:46:08,160 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\error_correction_model.py', reloading
+2024-05-28 23:46:08,170 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:46:08] "[35m[1mPOST /grammar HTTP/1.1[0m" 500 -
+2024-05-28 23:46:08,192 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:46:08] "GET /grammar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-28 23:46:08,197 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:46:08] "GET /grammar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-28 23:46:08,214 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:46:08] "GET /grammar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-28 23:46:08,244 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:46:08] "[36mGET /grammar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-28 23:46:10,117 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-28 23:46:17,237 :: root         : INFO     Configured the logging successfully
+2024-05-28 23:46:17,247 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-28 23:46:17,254 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-28 23:47:51,320 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-28 23:47:51,321 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-28 23:47:51,323 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-28 23:47:51,324 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-28 23:47:53,401 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-28 23:48:01,100 :: root         : INFO     Configured the logging successfully
+2024-05-28 23:48:01,109 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-28 23:48:01,117 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-28 23:48:17,148 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:48:17] "GET /lexicon HTTP/1.1" 200 -
+2024-05-28 23:48:29,211 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:48:29] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-28 23:48:29,216 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:48:29] "GET /lexicon HTTP/1.1" 200 -
+2024-05-28 23:48:42,567 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:48:42] "POST /grammar HTTP/1.1" 200 -
+2024-05-28 23:48:59,345 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:48:59] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-28 23:48:59,350 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:48:59] "GET /lexicon HTTP/1.1" 200 -
+2024-05-28 23:49:11,617 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:49:11] "POST /grammar HTTP/1.1" 200 -
+2024-05-28 23:49:36,041 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:49:36] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-28 23:49:36,047 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:49:36] "GET /lexicon HTTP/1.1" 200 -
+2024-05-28 23:49:47,091 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:49:47] "POST /grammar HTTP/1.1" 200 -
+2024-05-28 23:50:09,813 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:50:09] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-28 23:50:09,818 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:50:09] "GET /lexicon HTTP/1.1" 200 -
+2024-05-28 23:50:21,695 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:50:21] "POST /grammar HTTP/1.1" 200 -
+2024-05-28 23:57:24,712 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:57:24] "GET /lexicon HTTP/1.1" 200 -
+2024-05-28 23:57:27,793 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:57:27] "GET /lexicon HTTP/1.1" 200 -
+2024-05-28 23:57:28,776 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:57:28] "GET /lexicon HTTP/1.1" 200 -
+2024-05-28 23:58:23,777 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:58:23] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-28 23:58:23,782 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:58:23] "GET /lexicon HTTP/1.1" 200 -
+2024-05-28 23:58:41,416 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:58:41] "POST /grammar HTTP/1.1" 200 -
+2024-05-28 23:59:17,527 :: root         : INFO     BERT has been loaded successfully
+2024-05-28 23:59:18,416 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-28 23:59:18,500 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-28 23:59:18,500 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-28 23:59:20,192 :: root         : INFO     Time taken:1 seconds
+2024-05-28 23:59:20,311 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:59:20] "POST /error-detect HTTP/1.1" 200 -
+2024-05-28 23:59:28,324 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:59:28] "POST /error-detect HTTP/1.1" 200 -
+2024-05-28 23:59:44,077 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:59:44] "POST /spell HTTP/1.1" 200 -
+2024-05-28 23:59:54,414 :: werkzeug     : INFO     127.0.0.1 - - [28/May/2024 23:59:54] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:00:07,845 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:00:07] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:01:15,666 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2024-05-29 00:01:15,693 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+2024-05-29 00:01:18,642 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-29 00:01:31,133 :: root         : INFO     Configured the logging successfully
+2024-05-29 00:01:31,146 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-29 00:01:31,155 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-29 00:01:58,529 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:01:58] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:02:14,104 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:02:14] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-29 00:02:14,108 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:02:14] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:02:18,886 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:02:18] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:04:28,614 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\io.py', reloading
+2024-05-29 00:04:30,666 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-29 00:04:37,824 :: root         : INFO     Configured the logging successfully
+2024-05-29 00:04:37,833 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-29 00:04:37,841 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-29 00:04:40,940 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:04:40] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:04:53,117 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:04:53] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-29 00:04:53,122 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:04:53] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:05:00,445 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:05:00] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:05:56,676 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:05:56] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:06:14,281 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:06:14] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:06:19,438 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:06:19] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:08:08,883 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:08:08] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:08:36,019 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:08:36] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:08:39,240 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:08:39] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:08:50,331 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:08:50] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:09:13,022 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:09:13] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:09:34,042 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:09:34] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-29 00:09:34,047 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:09:34] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:09:41,649 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:09:41] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:10:36,331 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:10:36] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:10:41,891 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:10:41] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:13:27,184 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:13:27] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:13:43,936 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:13:43] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-29 00:13:43,943 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:13:43] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:13:48,941 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:13:48] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:14:59,276 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-29 00:14:59,278 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-29 00:15:01,346 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-29 00:15:08,372 :: root         : INFO     Configured the logging successfully
+2024-05-29 00:15:08,380 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-29 00:15:08,390 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-29 00:15:30,045 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\anaconda3\\Lib\\site-packages\\hunspell\\__init__.py', reloading
+2024-05-29 00:15:31,964 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-29 00:15:39,495 :: root         : INFO     Configured the logging successfully
+2024-05-29 00:15:39,505 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-29 00:15:39,517 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-29 00:16:38,198 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\spell.py', reloading
+2024-05-29 00:16:38,199 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\spell.py', reloading
+2024-05-29 00:16:38,200 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\spell.py', reloading
+2024-05-29 00:16:40,196 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-29 00:16:47,598 :: root         : INFO     Configured the logging successfully
+2024-05-29 00:16:47,607 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-29 00:16:47,618 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-29 00:16:47,657 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:16:47] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:16:54,882 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:16:54] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:16:59,827 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:16:59] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:17:20,819 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:17:20] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-29 00:17:20,824 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:17:20] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:17:27,835 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:17:27] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:17:44,670 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:17:44] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-29 00:17:44,676 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:17:44] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:17:52,319 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:17:52] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:21:07,365 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\stemmer.py', reloading
+2024-05-29 00:21:09,504 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-29 00:21:16,605 :: root         : INFO     Configured the logging successfully
+2024-05-29 00:21:16,614 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-29 00:21:16,622 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-29 00:22:21,512 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-29 00:22:21,514 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-29 00:22:21,515 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-29 00:22:23,460 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-29 00:22:31,010 :: root         : INFO     Configured the logging successfully
+2024-05-29 00:22:31,020 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-29 00:22:31,029 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-29 00:22:31,069 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:22:31] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:22:46,885 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:22:46] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-29 00:22:46,891 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:22:46] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:22:51,928 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:22:51] "POST /spell HTTP/1.1" 200 -
+2024-05-29 00:24:27,779 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:24:27] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:25:15,059 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:25:15] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:25:39,832 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:25:39] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:25:48,389 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:25:48] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:25:55,662 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:25:55] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:26:04,920 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:26:04] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:27:17,975 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:27:17] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:27:28,923 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:27:28] "POST /grammar HTTP/1.1" 200 -
+2024-05-29 00:27:31,976 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:27:31] "POST /error-detect HTTP/1.1" 200 -
+2024-05-29 00:28:46,613 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-29 00:28:46,613 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-29 00:28:48,598 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-29 00:28:55,912 :: root         : INFO     Configured the logging successfully
+2024-05-29 00:28:55,922 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-29 00:28:55,932 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-29 00:29:01,328 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:29:01] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-29 00:29:01,336 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:29:01] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:31:02,943 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-29 00:31:02,944 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-29 00:31:04,876 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-29 00:31:12,173 :: root         : INFO     Configured the logging successfully
+2024-05-29 00:31:12,183 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-29 00:31:12,191 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-29 00:31:12,226 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:31:12] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:31:18,912 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:31:18] "[35m[1mPOST /lexicon HTTP/1.1[0m" 500 -
+2024-05-29 00:31:18,928 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:31:18] "[36mGET /lexicon?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-29 00:31:18,928 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:31:18] "[36mGET /lexicon?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-29 00:31:18,959 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:31:18] "[36mGET /lexicon?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-29 00:31:18,972 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:31:18] "[36mGET /lexicon?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-29 00:31:50,974 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-29 00:31:50,975 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-29 00:31:50,977 :: werkzeug     : INFO      * Detected change in 'C:\\Users\\anany\\Desktop\\fyp\\src\\app.py', reloading
+2024-05-29 00:31:52,981 :: werkzeug     : INFO      * Restarting with watchdog (windowsapi)
+2024-05-29 00:32:00,225 :: root         : INFO     Configured the logging successfully
+2024-05-29 00:32:00,234 :: werkzeug     : WARNING   * Debugger is active!
+2024-05-29 00:32:00,243 :: werkzeug     : INFO      * Debugger PIN: 135-112-466
+2024-05-29 00:32:00,279 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:32:00] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:32:06,405 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:32:06] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-29 00:32:06,411 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:32:06] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:33:36,235 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:33:36] "POST /grammar HTTP/1.1" 200 -
+2024-05-29 00:33:46,635 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:33:46] "POST /grammar HTTP/1.1" 200 -
+2024-05-29 00:34:03,888 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:34:03] "[32mPOST /lexicon HTTP/1.1[0m" 302 -
+2024-05-29 00:34:03,895 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:34:03] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 00:34:12,711 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:34:12] "POST /grammar HTTP/1.1" 200 -
+2024-05-29 00:35:37,456 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:35:37] "POST /grammar HTTP/1.1" 200 -
+2024-05-29 00:35:54,756 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:35:54] "POST /grammar HTTP/1.1" 200 -
+2024-05-29 00:36:03,997 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 00:36:03] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 06:52:16,959 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 06:52:16] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 06:54:31,348 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 06:54:31] "POST /spell HTTP/1.1" 200 -
+2024-05-29 06:55:33,230 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 06:55:33] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 06:55:41,123 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 06:55:41] "POST /spell HTTP/1.1" 200 -
+2024-05-29 06:56:10,426 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 06:56:10] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 06:56:16,931 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 06:56:16] "POST /spell HTTP/1.1" 200 -
+2024-05-29 08:15:00,447 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 08:15:00] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 09:00:49,882 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 09:00:49] "POST /spell HTTP/1.1" 200 -
+2024-05-29 09:03:41,004 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 09:03:41] "POST /spell HTTP/1.1" 200 -
+2024-05-29 09:06:13,301 :: root         : INFO     BERT has been loaded successfully
+2024-05-29 09:06:13,321 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-29 09:06:13,322 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-29 09:06:13,323 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-29 09:06:15,986 :: root         : INFO     Time taken:2 seconds
+2024-05-29 09:06:16,085 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 09:06:16] "POST /error-detect HTTP/1.1" 200 -
+2024-05-29 09:06:54,617 :: root         : INFO     BERT has been loaded successfully
+2024-05-29 09:06:54,619 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-29 09:06:54,620 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-29 09:06:54,620 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-29 09:06:56,207 :: root         : INFO     Time taken:1 seconds
+2024-05-29 09:06:56,250 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 09:06:56] "POST /error-detect HTTP/1.1" 200 -
+2024-05-29 09:07:29,650 :: root         : INFO     BERT has been loaded successfully
+2024-05-29 09:07:29,651 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-29 09:07:29,652 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-29 09:07:29,652 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-29 09:07:32,214 :: root         : INFO     Time taken:2 seconds
+2024-05-29 09:07:32,275 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 09:07:32] "POST /error-detect HTTP/1.1" 200 -
+2024-05-29 09:08:00,690 :: root         : INFO     BERT has been loaded successfully
+2024-05-29 09:08:00,692 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-29 09:08:00,693 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-29 09:08:00,693 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-29 09:08:03,245 :: root         : INFO     Time taken:2 seconds
+2024-05-29 09:08:03,295 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 09:08:03] "POST /error-detect HTTP/1.1" 200 -
+2024-05-29 09:08:21,956 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 09:08:21] "POST /grammar HTTP/1.1" 200 -
+2024-05-29 09:45:04,295 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 09:45:04] "GET /lexicon HTTP/1.1" 200 -
+2024-05-29 09:45:31,200 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 09:45:31] "POST /spell HTTP/1.1" 200 -
+2024-05-29 09:47:56,719 :: root         : INFO     BERT has been loaded successfully
+2024-05-29 09:47:56,720 :: root         : INFO     Padded array shape:(1, 128)
+2024-05-29 09:47:56,721 :: root         : INFO     Attention mask shape:(1, 128)
+2024-05-29 09:47:56,721 :: root         : INFO     Going to get BERT embeddings for 1 records
+2024-05-29 09:47:59,254 :: root         : INFO     Time taken:2 seconds
+2024-05-29 09:47:59,310 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 09:47:59] "POST /error-detect HTTP/1.1" 200 -
+2024-05-29 09:48:26,983 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 09:48:26] "POST /grammar HTTP/1.1" 200 -
+2024-05-29 09:49:31,264 :: werkzeug     : INFO     127.0.0.1 - - [29/May/2024 09:49:31] "POST /spell HTTP/1.1" 200 -

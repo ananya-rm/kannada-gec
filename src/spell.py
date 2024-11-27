@@ -12,31 +12,39 @@ def correct_spellings_kannada_hunspell(text, dict_path="C:/Users/anany/Desktop/p
         return "Please enter text in Kannada"
 
     # Initialize Hunspell with the Kannada dictionary
-    kannada_dict_path = "C:/Users/anany/Desktop/dictionary/kn"
-    kannada_affix_path = "C:/Users/anany/Desktop/dictionary/kn"
+    kannada_dict_path = "C:/Users/anany/Desktop/fyp/src/kn"
+    kannada_affix_path = "C:/Users/anany/Desktop/fyp/src/kn"
     kannada_spell_checker = Hunspell(kannada_affix_path, kannada_dict_path)
 
     # Tokenize the text into words
     words = text.split()
 
-    corrected_words = []
+    kannada_spell_checker = Hunspell(dict_path , dict_path + '.dic')
+
+    # Tokenize the text into words
+    words = text.split()
+
+    corrected_text = []
 
     for word in words:
-        # Check if the word is misspelled and suggest corrections
+        # Check if the word is misspelled
         if not kannada_spell_checker.spell(word):
+            # If misspelled, suggest corrections
             suggestions = kannada_spell_checker.suggest(word)
             if suggestions:
+                # If suggestions available, take the first suggestion
                 corrected_word = suggestions[0]
-                corrected_words.append(corrected_word)
+                # Append the corrected word in brackets
+                corrected_text.append(f"{word} [{corrected_word}]")
             else:
-                corrected_words.append(word)
+                # If no suggestions, keep the original word
+                corrected_text.append(word)
         else:
-            corrected_words.append(word)
+            # If spelled correctly, keep the original word
+            corrected_text.append(word)
 
     # Join the corrected words back into a sentence
-    corrected_text = ' '.join(corrected_words)
-
-    return corrected_text
+    return ' '.join(corrected_text)
 
 
 kannada_text = "ನನ್ನು ಹೊಗುತ್ತೇನೆ "

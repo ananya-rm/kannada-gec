@@ -1,36 +1,8 @@
-import re
-import spell as sp
-def grammar_correct(text):
+def stem(word):
 
-    kannada_pattern = re.compile(r'[\u0C80-\u0CFF]+')
 
-    # Check if the text contains Kannada characters
-    b = bool(re.search(kannada_pattern, text))
-
-    if(b != True):
-        return "Please enter text in Kannada"
-
-    words = text.split()
-
-    if(len(words) < 2):
-        return "Enter sentence with subject and verb"
-
-    text = sp.correct_spellings_kannada_hunspell(text)
-
-    words = text.split()
-
-    f = False
-
-    with open("C:/Users/anany/Desktop/fyp/src/sub.txt", 'r',encoding='utf-8') as file:
-        for line in file:
-            columns = line.strip().split('\t')
-            if columns[0] == words[0]:
-                f = True
-    if f == False:
-        return "Oops!Subject error"
-
-    with open("C:/Users/anany/Desktop/stem.txt","w",encoding='utf-8') as file:
-        file.write(text)
+    with open("C:/Users/anany/Desktop/stem2.txt","w",encoding='utf-8') as file:
+        file.write(word)
 
     complex_suffixes = {
 
@@ -233,6 +205,8 @@ def grammar_correct(text):
     def kannada_root(word, inde):
         global flag
 
+        flag = None
+
 
         #checking for suffixes which needs to be retained
         for L in complex_suffixes[72]:
@@ -273,14 +247,11 @@ def grammar_correct(text):
             return "Incorrect input"
 
         return word, inde
-
-
-
     x=[]
-    with open("C:/Users/anany/Desktop/stem.txt",encoding='utf-8') as file:
+    with open("C:/Users/anany/Desktop/stem2.txt",encoding='utf-8') as file:
         for l in file:
             x.append(l.strip())
-    num_lines2 = sum(1 for line in open("C:/Users/anany/Desktop/stem.txt",encoding='utf-8'))
+    num_lines2 = sum(1 for line in open("C:/Users/anany/Desktop/stem2.txt",encoding='utf-8'))
 
 
     y = []
@@ -292,139 +263,23 @@ def grammar_correct(text):
         print(root , inde)
         y.append(root)
 
-    sent=y[0]
-    #print(sent)
-
-    sentence = sent.split()
-    other = ""
-    subject = ""
-    verb = ""
-
-    for it in sentence:
-        with open("C:/Users/anany/Desktop/fyp/src/sub.txt", 'r',encoding='utf-8') as file:
-            for line in file:
-                columns = line.strip().split('\t')
-                if columns[0] == it:
-                    # Extract values from 2nd, 3rd, and 4th columns
-                    subject = columns[0]
-                    value2 = columns[1]
-                    value3 = columns[2]
-                    value4 = columns[3]
-                    break
-        with open("C:/Users/anany/Desktop/fyp/src/verbs.txt", 'r', encoding='utf-8') as file:
-            for line in file:
-                line = line.strip()
-                if line == it:
-                    verb=it
-                    break
-
-
-    for it in sentence:
-        if str(it)!=subject and str(it)!= verb:
-            other+=it
-            other+=" "
-    other=other.rsplit(' ', 3)[0]
-
-    try:
-
-        if value2 == 'F' and value3 == 'S' and value4 == 'T':
-            ans1 = verb + 'ತ್ತಾಳೆ'
-            ans2 = verb + 'ತ್ತಿದ್ದಾಳೆ'
-            ans3 = verb + 'ವಳು'
-
-        elif value2 == 'F' and value3 == 'P' and value4 == 'T':
-            ans1 = verb + 'ತ್ತಾರೆ'
-            ans2 = verb + 'ತ್ತಿದ್ದಾರೆ'
-            ans3 = verb + 'ವರು'
-
-        elif value2 == 'M' and value3 == 'S' and value4 == 'T':
-            ans1 = verb + 'ತ್ತಾನೆ'
-            ans2 = verb + 'ತ್ತಿದ್ದಾನೆ'
-            ans3 = verb + 'ವನು'
-
-        elif value2 == 'M' and value3 == 'P' and value4 == 'T':
-            ans1 = verb + 'ತ್ತಾರೆ'
-            ans2 = verb + 'ತ್ತಿದ್ದಾರೆ'
-            ans3 = verb + 'ವರು'
-
-        elif value2 == 'N' and value3 == 'S' and value4 == 'T':
-            ans1 = verb + 'ತ್ತದೆ'
-            ans2 = verb + 'ತ್ತಿದೆ'
-            ans3 = verb + 'ವುದು'
-
-        elif value2 == 'N' and value3 == 'P' and value4 == 'T':
-            ans1 = verb + 'ತ್ತವೆ'
-            ans2 = verb + 'ತ್ತಿವೆ'
-            ans3 = verb + 'ವವು'
-
-        elif value2 == 'G' and value3 == 'S' and value4 == 'T':
-            ans1 = verb + 'ತ್ತಾನೆ'
-            ans2 = verb + 'ತ್ತಿದ್ದಾನೆ'
-            ans3 = verb + 'ವನು'
-
-        elif value2 == 'G' and value3 == 'P' and value4 == 'T':
-            ans1 = verb + 'ತ್ತಾರೆ'
-            ans2 = verb + 'ತ್ತಿದ್ದಾರೆ'
-            ans3 = verb + 'ವರು'
-
-        elif value2 == 'G' and value3 == 'S' and value4 == 'F':
-            ans1 = verb + 'ತ್ತೇನೆ'
-            ans2 = verb + 'ತ್ತಿದ್ದೇನೆ'
-            ans3 = verb + 'ವೆನು'
-
-        elif value2 == 'G' and value3 == 'P' and value4 == 'F':
-            ans1 = verb + 'ತ್ತೇವೆ'
-            ans2 = verb + 'ತ್ತಿದ್ದೇವೆ'
-            ans3 = verb + 'ವೆವು'
-
-        elif value2 == 'G' and value3 == 'P' and value4 == 'S':
-            ans1 = verb + 'ತ್ತೀರಿ'
-            ans2 = verb + 'ತ್ತಿದ್ದೀರಿ'
-            ans3 = verb + 'ವಿರಿ'
-
-        elif value2 == 'G' and value3 == 'S' and value4 == 'S':
-            ans1 = verb + 'ತ್ತೀಯ'
-            ans2 = verb + 'ತ್ತಿದ್ದೀಯ'
-            ans3 = verb + 'ವೆ'
     
-    except Exception:
-        return "Subject error"
+
+    return y[0]
+    
+def helper(word):
+
+    root = stem(word)
+    f = False
+
+    with open("C:/Users/anany/Desktop/fyp/src/verbs.txt", 'r',encoding='utf-8') as file:
+        for line in file:
+            line = line.strip()
+            if line == root:
+                f = True
+                return f
+            
+    return False
 
 
-    class Color:
-        BLACK = '\033[30m'
-        RED = '\033[31m'
-        GREEN = '\033[32m'
-        YELLOW = '\033[33m'
-        BLUE = '\033[34m'
-        MAGENTA = '\033[35m'
-        CYAN = '\033[36m'
-        WHITE = '\033[37m'
-        RESET = '\033[0m'
 
-    # Example usage
-    output = "[" + ans1 + "/" + ans2 + "/" + ans3 + "]"
-
-    with open("C:/Users/anany/Desktop/stem.txt",encoding='utf-8') as file:
-        for l in file:
-            l = l.split(" ")
-
-    other += " "
-    incorrect = l[-1]
-
-    finall = subject + " " +  incorrect + " " + output
-
-    with open("C:/Users/anany/Desktop/output.txt", "w", encoding = 'utf-8') as file:
-        file.write(subject + " " + other + ans1 + "/" + ans2 + "/" + ans3 )
-
-
-    return finall
-
-# sent1=subject+" "+other+ans1
-# sent2=subject+" "+other+ans2
-
-# with open("C:/Users/anany/Desktop/output.txt", "w",encoding='utf-8') as file_pointer:
-#     # Write sentences to the file
-#     file_pointer.write(sent1)
-#     file_pointer.write("\n")
-#     file_pointer.write(sent2)
